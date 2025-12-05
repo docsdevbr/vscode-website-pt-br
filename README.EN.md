@@ -2,7 +2,7 @@
 
 [![README file in English][badge-readme-en]][readme-en]
 [![README file in Brazilian Portuguese][badge-readme-pt-br]][readme-pt-br]
-[![License: MPL-2.0][badge-license]][license]
+[![License: CC-BY-3.0-US][badge-license]][license]
 [![Contributors][badge-contributors]][contributors]
 [![GitHub Sponsors][badge-github-sponsors]][github-sponsors]
 
@@ -39,7 +39,7 @@ The original work was translated from English into Brazilian Portuguese.
 
 [badge-github-sponsors]: https://img.shields.io/github/sponsors/docsdevbr
 
-[badge-license]: https://img.shields.io/github/license/docsdevbr/vscode-website-pt-br
+[badge-license]: https://img.shields.io/badge/license-CC--BY--3.0--US-green
 
 [badge-readme-en]: https://img.shields.io/badge/lang-en-blue
 
