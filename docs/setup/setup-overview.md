@@ -34,7 +34,7 @@ para verificar se a configuração do seu computador é suportada.
 
 ## Configurando o VS Code para sua plataforma
 
-1. Baixe e instale o Visual Studio Code para sua plataforma
+1. Baixe e instale o Visual Studio Code para sua plataforma:
 
   * [macOS](/docs/setup/mac.md)
   * [Linux](/docs/setup/linux.md)
@@ -42,20 +42,20 @@ para verificar se a configuração do seu computador é suportada.
 
   > [!NOTE]
   > O VS Code lança versões mensais e oferece suporte à
-  > [atualização automática](#update-cadence) quando uma nova versão estiver
+  > [atualização automática](#frequência-de-atualizações) quando uma nova versão estiver
   > disponível.
 
-2. [Instale componentes adicionais](/docs/setup/additional-components.md)
+2. [Instale componentes adicionais](/docs/setup/additional-components.md):
 
   Instale Git, Node.js, TypeScript, ambientes de execução de linguagem e muito
   mais.
 
-3. [Instale extensões do VS Code do Visual Studio Marketplace](https://marketplace.visualstudio.com/VSCode)
+3. [Instale extensões do VS Code a partir do Visual Studio Marketplace](https://marketplace.visualstudio.com/VSCode):
 
   Personalize o VS Code com temas, formatadores, extensões de linguagem e
   depuradores para suas linguagens favoritas e muito mais.
 
-4. [Habilite recursos de IA](/docs/copilot/setup.md)
+4. [Habilite recursos de IA](/docs/copilot/setup.md):
 
   > [!TIP]
   > Se você ainda não tem uma assinatura do Copilot, pode usá-lo gratuitamente
@@ -63,14 +63,14 @@ para verificar se a configuração do seu computador é suportada.
   > [Plano Copilot Gratuito](https://github.com/github-copilot/signup) e obter
   > um limite mensal de preenchimento automático e interações de bate-papo.
 
-1. [Tutorial de introdução ao VS Code](/docs/getstarted/getting-started.md)
+5. [Tutorial de introdução ao VS Code](/docs/getstarted/getting-started.md):
 
   Descubra a interface da pessoa usuária e os principais recursos do VS Code.
 
 ## Frequência de atualizações
 
 O VS Code lança uma nova versão [mensalmente](/updates) com novos recursos e
-correções de bugs importantes.
+correções de falhas importantes.
 A maioria das plataformas oferece suporte à atualização automática e você
 receberá uma notificação para instalar a nova versão quando ela estiver
 disponível.
@@ -87,11 +87,11 @@ Você também pode verificar manualmente se há atualizações executando **Ajud
 ## Versão noturna Insiders
 
 Se você quiser experimentar nossas versões noturnas para ver novos recursos
-antecipadamente ou verificar correções de bugs, você pode instalar nossa
+antecipadamente ou verificar correções de falhas, você pode instalar nossa
 [versão Insiders](/insiders).
 A versão Insiders é instalada em paralelo com a versão estável mensal e você
 pode trabalhar livremente com qualquer uma delas na mesma máquina.
-A versão Insiders é a mesma que a equipe de desenvolvimento do VS Code usa
+A versão Insiders é a mesma que o time de desenvolvimento do VS Code usa
 diariamente e agradecemos muito se as pessoas experimentarem novos recursos e
 fornecerem feedback.
 
@@ -100,7 +100,7 @@ fornecerem feedback.
 O Visual Studio Code oferece suporte à instalação no
 [Modo portátil](https://en.wikipedia.org/wiki/Portable_application).
 Esse modo permite que todos os dados criados e mantidos pelo VS Code fiquem
-armazenados próximos a ele, para que possam ser movidos entre ambientes, por
+armazenados junto a ele, para que possam ser movidos entre ambientes, por
 exemplo, em um pen drive.
 Consulte a documentação do [Modo portátil do VS Code](/docs/editor/portable.md)
 para obter detalhes.
