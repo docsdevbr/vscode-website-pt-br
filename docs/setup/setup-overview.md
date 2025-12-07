@@ -67,59 +67,105 @@ para verificar se a configuração do seu computador é suportada.
 
   Descubra a interface da pessoa usuária e os principais recursos do VS Code.
 
-## Update cadence
+## Frequência de atualizações
 
-VS Code releases a new version [each month](/updates) with new features and important bug fixes. Most platforms support auto updating and you are prompted to install the new release when it becomes available.
+O VS Code lança uma nova versão [mensalmente](/updates) com novos recursos e
+correções de bugs importantes.
+A maioria das plataformas oferece suporte à atualização automática e você
+receberá uma notificação para instalar a nova versão quando ela estiver
+disponível.
 
-You can also manually check for updates by running **Help** > **Check for Updates** on Linux and Windows, or running **Code** > **Check for Updates** on macOS.
+Você também pode verificar manualmente se há atualizações executando **Ajuda** >
+**Verificar se há Atualizações** no Linux e no Windows ou executando **Código**
+\> **Verificar se há atualizações** no macOS.
 
 > [!NOTE]
-> You can [disable auto-update](/docs/supporting/faq.md#how-do-i-opt-out-of-vs-code-autoupdates) if you prefer to update VS Code on your own schedule.
+> Você pode
+> [desativar a atualização automática](/docs/supporting/faq.md#how-do-i-opt-out-of-vs-code-autoupdates)
+> se preferir atualizar o VS Code de acordo com sua própria programação.
 
-## Insiders nightly build
+## Versão noturna Insiders
 
-If you'd like to try our nightly builds to see new features early or verify bug fixes, you can install our [Insiders build](/insiders). The Insiders build installs side-by-side with the monthly Stable build and you can freely work with either on the same machine. The Insiders build is the same one the VS Code development team uses on a daily basis and we really appreciate people trying out new features and providing feedback.
+Se você quiser experimentar nossas versões noturnas para ver novos recursos
+antecipadamente ou verificar correções de bugs, você pode instalar nossa
+[versão Insiders](/insiders).
+A versão Insiders é instalada em paralelo com a versão estável mensal e você
+pode trabalhar livremente com qualquer uma delas na mesma máquina.
+A versão Insiders é a mesma que a equipe de desenvolvimento do VS Code usa
+diariamente e agradecemos muito se as pessoas experimentarem novos recursos e
+fornecerem feedback.
 
-## Portable mode
+## Modo portátil
 
-Visual Studio Code supports [Portable mode](https://en.wikipedia.org/wiki/Portable_application) installation. This mode enables all data created and maintained by VS Code to live near itself, so it can be moved around across environments, for example, on a USB drive. See the [VS Code Portable Mode](/docs/editor/portable.md) documentation for details.
+O Visual Studio Code oferece suporte à instalação no
+[Modo portátil](https://en.wikipedia.org/wiki/Portable_application).
+Esse modo permite que todos os dados criados e mantidos pelo VS Code fiquem
+armazenados próximos a ele, para que possam ser movidos entre ambientes, por
+exemplo, em um pen drive.
+Consulte a documentação do [Modo portátil do VS Code](/docs/editor/portable.md)
+para obter detalhes.
 
-## Next steps
+## Próximos passos
 
-Once you have installed VS Code, these topics will help you learn more about it:
+Depois de instalar o VS Code, estes tópicos ajudarão você a aprender mais sobre
+ele:
 
-* [VS Code tutorial](/docs/getstarted/getting-started.md) - A quick hands-on tour of the key features of VS Code.
-* [Tips and Tricks](/docs/getstarted/tips-and-tricks.md) - A collection of productivity tips for working with VS Code.
-* [AI-assisted coding](/docs/copilot/overview.md) - Learn about using GitHub Copilot in VS Code to help you write code faster.
+* [Tutorial do VS Code](/docs/getstarted/getting-started.md) - um guia rápido e
+  prático sobre os principais recursos do VS Code;
+* [Dicas e truques](/docs/getstarted/tips-and-tricks.md) - uma coleção de dicas
+  de produtividade para trabalhar com o VS Code;
+* [Codificação assistida por IA](/docs/copilot/overview.md) - saiba como usar o
+  GitHub Copilot no VS Code para escrever código mais rapidamente.
 
-## Common questions
+## Perguntas frequentes
 
-### What are the system requirements for VS Code?
+### Quais são os requisitos de sistema para o VS Code?
 
-We have a list of [System Requirements](/docs/supporting/requirements.md).
+Temos uma lista de [Requisitos de sistema](/docs/supporting/requirements.md).
 
-### How big is VS Code?
+### Qual o tamanho do VS Code?
 
-VS Code is a small download (< 200 MB) and has a disk footprint of less than 500 MB, so you can quickly install VS Code and try it out.
+O VS Code é um programa pequeno para baixar (menos de 200 MB) e ocupa menos de
+500 MB de espaço em disco, permitindo que você o instale e experimente
+rapidamente.
 
-### How do I create and run a new project?
+### Como criar e executar um novo projeto?
 
-VS Code doesn't include a traditional **File** > **New Project** dialog or pre-installed project templates. You'll need to add [additional components](/docs/setup/additional-components.md) and scaffolders depending on your development interests. With scaffolding tools like [Yeoman](https://yeoman.io/) and the multitude of modules available through the [npm](https://www.npmjs.com/) package manager, you're sure to find appropriate templates and tools to create your projects.
+O VS Code não inclui a tradicional caixa de diálogo **Arquivo** > **Novo
+Projeto** nem templates de projeto pré-instalados.
+Você precisará adicionar
+[componentes adicionais](/docs/setup/additional-components.md) e ferramentas de
+geração automática de código, dependendo dos seus interesses de desenvolvimento.
+Com ferramentas de geração automática de código como o
+[Yeoman](https://yeoman.io/) e a infinidade de módulos disponíveis no
+gerenciador de pacotes [npm](https://www.npmjs.com/), você certamente encontrará
+templates e ferramentas adequados para criar seus projetos.
 
-### How do I know which version I'm running?
+### Como saber qual versão estou executando?
 
-On Linux and Windows, choose **Help** > **About**. On macOS, use **Code** > **About Visual Studio Code**.
+No Linux e no Windows, selecione **Ajuda** > **Sobre**.
+No macOS, acesse **Código** > **Sobre o Visual Studio Code**.
 
-### Why is VS Code saying my installation is unsupported?
+### Por que o VS Code está dizendo que minha instalação não é compatível?
 
-VS Code has detected that some installation files have been modified, perhaps by an extension. Reinstalling VS Code will replace the affected files. See our [FAQ topic](/docs/supporting/faq.md#installation-appears-to-be-corrupt-unsupported) for more details.
+O VS Code detectou que alguns arquivos de instalação foram modificados,
+possivelmente por uma extensão.
+Reinstalar o VS Code substituirá os arquivos afetados.
+Consulte nosso
+[tópico de perguntas frequentes](/docs/supporting/faq.md#installation-appears-to-be-corrupt-unsupported)
+para obter mais detalhes.
 
-### How can I do a 'clean' uninstall of VS Code?
+### Como posso fazer uma desinstalação completa do VS Code?
 
-If you want to remove all user data after [uninstalling](/docs/setup/uninstall.md) VS Code, you can delete the user data folders `Code` and `.vscode`. This returns you to the state before you installed VS Code. This can also be used to reset all settings if you don't want to uninstall VS Code.
+Se você quiser remover todos os dados do usuário após
+[desinstalar](/docs/setup/uninstall.md) o VS Code, você pode excluir as pastas
+de dados do usuário `Code` e `.vscode`.
+Isso restaura o sistema ao estado anterior à instalação do VS Code.
+Essa opção também pode ser usada para redefinir todas as configurações, caso
+você não queira desinstalar o VS Code.
 
-The folder locations vary depending on your platform:
+A localização das pastas varia de acordo com a plataforma:
 
-* **Windows** - Delete `%APPDATA%\Code` and `%USERPROFILE%\.vscode`.
-* **macOS** - Delete `$HOME/Library/Application Support/Code` and `~/.vscode`.
-* **Linux** - Delete `$HOME/.config/Code` and `~/.vscode`.
+* **Windows** - exclua `%APPDATA%\Code` e `%USERPROFILE%\.vscode`;
+* **macOS** - exclua `$HOME/Library/Application Support/Code` e `~/.vscode`;
+* **Linux** - exclua `$HOME/.config/Code` e `~/.vscode`.
