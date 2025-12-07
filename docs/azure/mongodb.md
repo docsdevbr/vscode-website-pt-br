@@ -1,4 +1,14 @@
 ---
+# Copyright (c) Microsoft Corporation.
+# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+# Microsoft Corporation.
+# All rights reserved.
+#
+# Documentation licensed under the Creative Commons Attribution 3.0 United
+# States License.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/microsoft/vscode-docs/blob/-/LICENSE.md
+
 ContentId: d1187f99-354f-4798-9c19-e432e4ae8572
 MetaDescription: Working with MongoDB in Visual Studio Code
 DateApproved: 11/1/2025

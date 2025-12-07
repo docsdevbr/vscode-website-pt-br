@@ -1,4 +1,14 @@
 ---
+# Copyright (c) Microsoft Corporation.
+# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+# Microsoft Corporation.
+# All rights reserved.
+#
+# Documentation licensed under the Creative Commons Attribution 3.0 United
+# States License.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/microsoft/vscode-docs/blob/-/LICENSE.md
+
 ContentId: 58ea6755-9bfa-42c2-a4c8-ff0510f9c031
 DateApproved: 02/06/2025
 MetaDescription: Tips and tricks to optimize your development experience with GitHub Copilot in VS Code.

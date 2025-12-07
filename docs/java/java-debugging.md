@@ -1,4 +1,14 @@
 ---
+# Copyright (c) Microsoft Corporation.
+# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+# Microsoft Corporation.
+# All rights reserved.
+#
+# Documentation licensed under the Creative Commons Attribution 3.0 United
+# States License.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/microsoft/vscode-docs/blob/-/LICENSE.md
+
 ContentId: 929e5410-3bfe-4107-b331-565afe5d341f
 DateApproved: 12/9/2021
 MetaDescription: See how you can run and debug your Java source code locally, and in the cloud.

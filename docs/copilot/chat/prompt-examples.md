@@ -1,4 +1,14 @@
 ---
+# Copyright (c) Microsoft Corporation.
+# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+# Microsoft Corporation.
+# All rights reserved.
+#
+# Documentation licensed under the Creative Commons Attribution 3.0 United
+# States License.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/microsoft/vscode-docs/blob/-/LICENSE.md
+
 ContentId: 9d8f3a2b-5c6e-4f7a-8b9c-1d2e3f4a5b6c
 DateApproved: 11/12/2025
 MetaDescription: Discover effective prompt examples for chat in VS Code across different scenarios including code generation, debugging, testing, and working with notebooks.

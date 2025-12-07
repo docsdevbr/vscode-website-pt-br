@@ -1,4 +1,14 @@
 ---
+# Copyright (c) Microsoft Corporation.
+# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+# Microsoft Corporation.
+# All rights reserved.
+#
+# Documentation licensed under the Creative Commons Attribution 3.0 United
+# States License.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/microsoft/vscode-docs/blob/-/LICENSE.md
+
 ContentId: 7ab2cd6c-45fd-4278-a6e8-1c9e060593ea
 DateApproved: 11/12/2025
 MetaDescription: Enhance your coding with AI-powered inline suggestions from GitHub Copilot in Visual Studio Code.

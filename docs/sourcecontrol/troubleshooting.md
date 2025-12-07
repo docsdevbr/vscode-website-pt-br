@@ -1,4 +1,14 @@
 ---
+# Copyright (c) Microsoft Corporation.
+# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+# Microsoft Corporation.
+# All rights reserved.
+#
+# Documentation licensed under the Creative Commons Attribution 3.0 United
+# States License.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/microsoft/vscode-docs/blob/-/LICENSE.md
+
 ContentId: 8a7c3f4e-5b2d-4c9a-8e1f-6d3a2b1c0e9f
 MetaDescription: Diagnose Git issues using output logs, trace logging, and diagnostic tools in Visual Studio Code
 DateApproved: 12/2/2025

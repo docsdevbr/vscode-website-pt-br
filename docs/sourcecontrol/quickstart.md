@@ -1,4 +1,14 @@
 ---
+# Copyright (c) Microsoft Corporation.
+# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+# Microsoft Corporation.
+# All rights reserved.
+#
+# Documentation licensed under the Creative Commons Attribution 3.0 United
+# States License.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/microsoft/vscode-docs/blob/-/LICENSE.md
+
 ContentId: 5f83254d-2817-4398-9321-456789abcdef
 DateApproved: 11/12/2025
 MetaDescription: Quickly get started with Git source control in Visual Studio Code. Initialize a repository, stage changes, and commit code in minutes.

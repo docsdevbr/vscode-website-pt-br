@@ -1,5 +1,15 @@
 ---
-Order: 
+# Copyright (c) Microsoft Corporation.
+# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+# Microsoft Corporation.
+# All rights reserved.
+#
+# Documentation licensed under the Creative Commons Attribution 3.0 United
+# States License.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/microsoft/vscode-docs/blob/-/LICENSE.md
+
+Order:
 TOCTitle: Bracket Pair Colorization
 PageTitle: How We Made Bracket Pair Colorization 10,000x Faster In Visual Studio Code
 MetaDescription: How we made bracket pair colorization in Visual Studio Code up to 10,000 times faster.

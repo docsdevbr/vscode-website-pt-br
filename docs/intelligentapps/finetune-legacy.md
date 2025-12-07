@@ -1,4 +1,14 @@
 ---
+# Copyright (c) Microsoft Corporation.
+# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+# Microsoft Corporation.
+# All rights reserved.
+#
+# Documentation licensed under the Creative Commons Attribution 3.0 United
+# States License.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/microsoft/vscode-docs/blob/-/LICENSE.md
+
 ContentId: 5b6626b8-98a9-497e-bbc6-e2274885be56
 DateApproved: 12/11/2024
 MetaDescription: Use custom dataset to fine-tune a generative AI model in the Azure cloud or locally with GPUs. Deploy the fine-tuned model to the Azure cloud or download incremental files from fine-tuned model.

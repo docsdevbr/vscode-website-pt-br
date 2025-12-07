@@ -1,4 +1,14 @@
 ---
+# Copyright (c) Microsoft Corporation.
+# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+# Microsoft Corporation.
+# All rights reserved.
+#
+# Documentation licensed under the Creative Commons Attribution 3.0 United
+# States License.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/microsoft/vscode-docs/blob/-/LICENSE.md
+
 ContentId: fb94d678-70e5-49e9-9192-a1294a2bc14d
 DateApproved: 10/28/2025
 MetaDescription: Get started using the AI Toolkit Copilot tools to streamline and enhance the development of AI agent applications.

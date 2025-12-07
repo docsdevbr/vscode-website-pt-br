@@ -1,4 +1,14 @@
 ---
+# Copyright (c) Microsoft Corporation.
+# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+# Microsoft Corporation.
+# All rights reserved.
+#
+# Documentation licensed under the Creative Commons Attribution 3.0 United
+# States License.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/microsoft/vscode-docs/blob/-/LICENSE.md
+
 ContentId: 99a5d36e-ce14-4040-b1cf-7345b7fa2c7d
 DateApproved: 10/9/2025
 MetaDescription: Get started with Microsoft Fabric extensions for Visual Studio Code to develop data engineering and analytics solutions

@@ -1,4 +1,14 @@
 ---
+# Copyright (c) Microsoft Corporation.
+# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+# Microsoft Corporation.
+# All rights reserved.
+#
+# Documentation licensed under the Creative Commons Attribution 3.0 United
+# States License.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/microsoft/vscode-docs/blob/-/LICENSE.md
+
 ContentId: 6784FBBE-9EE4-44A8-AC48-A52617EB1968
 DateApproved: 4/18/2022
 MetaDescription: Reference for Docker build and Docker run tasks and properties in the Visual Studio Code Container Tools extension.

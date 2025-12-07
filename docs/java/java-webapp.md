@@ -1,4 +1,14 @@
 ---
+# Copyright (c) Microsoft Corporation.
+# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+# Microsoft Corporation.
+# All rights reserved.
+#
+# Documentation licensed under the Creative Commons Attribution 3.0 United
+# States License.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/microsoft/vscode-docs/blob/-/LICENSE.md
+
 ContentId: 98ddf1d3-6a8e-4b0f-a44d-e57cfdf2348c
 DateApproved: 3/2/2023
 MetaDescription: Java web app tutorial showing how to build and deploy a Java web app to Azure with Visual Studio Code

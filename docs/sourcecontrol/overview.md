@@ -1,4 +1,14 @@
 ---
+# Copyright (c) Microsoft Corporation.
+# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+# Microsoft Corporation.
+# All rights reserved.
+#
+# Documentation licensed under the Creative Commons Attribution 3.0 United
+# States License.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/microsoft/vscode-docs/blob/-/LICENSE.md
+
 ContentId: 7E22CCC0-2AB8-4729-A4C9-BE2B16853820
 DateApproved: 11/12/2025
 MetaDescription: Learn how to use VS Code's integrated Git source control features like staging, committing, branching, merge conflict resolution, and GitHub integration.

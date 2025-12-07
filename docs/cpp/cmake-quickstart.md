@@ -1,4 +1,14 @@
 ---
+# Copyright (c) Microsoft Corporation.
+# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+# Microsoft Corporation.
+# All rights reserved.
+#
+# Documentation licensed under the Creative Commons Attribution 3.0 United
+# States License.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/microsoft/vscode-docs/blob/-/LICENSE.md
+
 ContentId: 55b5d15c-a020-4808-941f-e0255751a5f7
 DateApproved: 5/29/2024
 MetaDescription: Create a Hello World project by using the CMake Quick Start in the CMake Tools Visual Studio Code extension
@@ -22,7 +32,7 @@ The `code .` command opens VS Code in the current working folder, which becomes 
 
 ## Create a CMakeLists.txt file
 
-The CMake Tools extension can create the files for a basic CMake project for you. 
+The CMake Tools extension can create the files for a basic CMake project for you.
 
 1. Open the Command Palette (`kb(workbench.action.showCommands)`) and run the **CMake: Quick Start** command:
 

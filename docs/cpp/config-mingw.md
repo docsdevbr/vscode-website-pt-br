@@ -1,4 +1,14 @@
 ---
+# Copyright (c) Microsoft Corporation.
+# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+# Microsoft Corporation.
+# All rights reserved.
+#
+# Documentation licensed under the Creative Commons Attribution 3.0 United
+# States License.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/microsoft/vscode-docs/blob/-/LICENSE.md
+
 ContentId: 7efec972-6556-4526-8aa8-c73b3319d612
 DateApproved: 12/14/2023
 MetaDescription: Configuring the C++ extension in Visual Studio Code to target g++ and gdb on a MinGW-w64 installation

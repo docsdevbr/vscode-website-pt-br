@@ -1,4 +1,14 @@
 ---
+# Copyright (c) Microsoft Corporation.
+# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+# Microsoft Corporation.
+# All rights reserved.
+#
+# Documentation licensed under the Creative Commons Attribution 3.0 United
+# States License.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/microsoft/vscode-docs/blob/-/LICENSE.md
+
 ContentId: cf275b3d-c1d8-4a55-b2eb-a8a744882b6a
 DateApproved: 9/9/2024
 MetaDescription: Debugging is a core feature of Visual Studio Code. Learn how to configure and use the Node.js debugger in this introductory video.

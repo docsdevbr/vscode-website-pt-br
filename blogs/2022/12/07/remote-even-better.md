@@ -1,5 +1,15 @@
 ---
-Order: 
+# Copyright (c) Microsoft Corporation.
+# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+# Microsoft Corporation.
+# All rights reserved.
+#
+# Documentation licensed under the Creative Commons Attribution 3.0 United
+# States License.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/microsoft/vscode-docs/blob/-/LICENSE.md
+
+Order:
 TOCTitle: Remote Development Even Better
 PageTitle: Making Remote Development Even Better
 MetaDescription: Announcing the release of the unified Visual Studio Code command-line interface and the latest improvements to remote development.

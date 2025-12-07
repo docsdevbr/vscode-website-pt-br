@@ -1,5 +1,15 @@
 ---
-Order: 
+# Copyright (c) Microsoft Corporation.
+# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+# Microsoft Corporation.
+# All rights reserved.
+#
+# Documentation licensed under the Creative Commons Attribution 3.0 United
+# States License.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/microsoft/vscode-docs/blob/-/LICENSE.md
+
+Order:
 TOCTitle: Language Server Index Format
 PageTitle: Language Server Index Format
 MetaDescription: Rich Code Navigation without Checkout
@@ -37,6 +47,16 @@ function bar(): void {
 Hovering over `bar()` shows the following hover information in Visual Studio Code:
 
 ---
+# Copyright (c) Microsoft Corporation.
+# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+# Microsoft Corporation.
+# All rights reserved.
+#
+# Documentation licensed under the Creative Commons Attribution 3.0 United
+# States License.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/microsoft/vscode-docs/blob/-/LICENSE.md
+
 
 ![Hover over Bar](./hover.png)
 

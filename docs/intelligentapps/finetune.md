@@ -1,4 +1,14 @@
 ---
+# Copyright (c) Microsoft Corporation.
+# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+# Microsoft Corporation.
+# All rights reserved.
+#
+# Documentation licensed under the Creative Commons Attribution 3.0 United
+# States License.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/microsoft/vscode-docs/blob/-/LICENSE.md
+
 ContentId: 3d9f2c6b-2f5e-4f9d-9b3a-7e6a1c4d8b21
 DateApproved: 11/14/2025
 MetaDescription: Learn how to fine-tune the Phi Silica model in Azure using a custom dataset, download the resulting LoRA adapter, and perform inference with the adapter.

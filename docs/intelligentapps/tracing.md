@@ -1,4 +1,14 @@
 ---
+# Copyright (c) Microsoft Corporation.
+# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+# Microsoft Corporation.
+# All rights reserved.
+#
+# Documentation licensed under the Creative Commons Attribution 3.0 United
+# States License.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/microsoft/vscode-docs/blob/-/LICENSE.md
+
 ContentId: e1e49b32-272f-4aef-a73b-56920112057d
 DateApproved: 10/03/2025
 MetaDescription: AI Toolkit hosts a local  server to collect trace data. The collector server is OLTP-compatible and most language model SDKs either directly support OTLP or have third-party instrumentation libraries to support it.
