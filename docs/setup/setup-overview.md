@@ -9,44 +9,63 @@
 # The original work was translated from English into Brazilian Portuguese.
 # https://github.com/microsoft/vscode-docs/blob/-/LICENSE.md
 
+source_url: https://github.com/microsoft/vscode-docs/blob/main/docs/setup/setup-overview.md
+revision: 38307c037e45ef51640f3f2c040e05e629a347a5
+status: ready
+
 ContentId: FC5262F3-D91D-4665-A5D2-BCBCCF66E53A
 DateApproved: 11/12/2025
-MetaDescription: Get Visual Studio Code up and running.
+MetaDescription: Instale e execute o Visual Studio Code.
 MetaSocialImage: images/quicksetup/quick-setup-social.png
 ---
-# Setting up Visual Studio Code
 
-VS Code is a free code editor, which runs on the macOS, Linux, and Windows operating systems. Getting up and running with Visual Studio Code is quick and easy. It is a small download so you can install in a matter of minutes and give VS Code a try.
+# Configurando o Visual Studio Code
 
-VS Code is lightweight and should run on most available hardware and platform versions. You can review the [System Requirements](/docs/supporting/requirements.md) to check if your computer configuration is supported.
+O VS Code é um editor de código gratuito que funciona nos sistemas operacionais
+macOS, Linux e Windows.
+Começar a usar o Visual Studio Code é rápido e fácil.
+O download é pequeno, então você pode instalá-lo em poucos minutos e
+experimentar o VS Code.
 
-## Set up VS Code for your platform
+O VS Code é leve e deve funcionar na maioria dos hardwares e plataformas
+disponíveis.
+Você pode consultar os [Requisitos de sistema](/docs/supporting/requirements.md)
+para verificar se a configuração do seu computador é suportada.
 
-1. Download and install Visual Studio Code for your platform
+## Configurando o VS Code para sua plataforma
 
-    * [macOS](/docs/setup/mac.md)
-    * [Linux](/docs/setup/linux.md)
-    * [Windows](/docs/setup/windows.md)
+1. Baixe e instale o Visual Studio Code para sua plataforma
 
-    > [!NOTE]
-    > VS Code ships monthly releases and supports [auto-update](#update-cadence) when a new release is available.
+  * [macOS](/docs/setup/mac.md)
+  * [Linux](/docs/setup/linux.md)
+  * [Windows](/docs/setup/windows.md)
 
-1. [Install additional components](/docs/setup/additional-components.md)
+  > [!NOTE]
+  > O VS Code lança versões mensais e oferece suporte à
+  > [atualização automática](#update-cadence) quando uma nova versão estiver
+  > disponível.
 
-    Install Git, Node.js, TypeScript, language runtimes, and more.
+2. [Instale componentes adicionais](/docs/setup/additional-components.md)
 
-1. [Install VS Code extensions from the Visual Studio Marketplace](https://marketplace.visualstudio.com/VSCode)
+  Instale Git, Node.js, TypeScript, ambientes de execução de linguagem e muito
+  mais.
 
-    Customize VS Code with themes, formatters, language extensions and debuggers for your favorite languages, and more.
+3. [Instale extensões do VS Code do Visual Studio Marketplace](https://marketplace.visualstudio.com/VSCode)
 
-1. [Enable AI features](/docs/copilot/setup.md)
+  Personalize o VS Code com temas, formatadores, extensões de linguagem e
+  depuradores para suas linguagens favoritas e muito mais.
 
-    > [!TIP]
-    > If you don't yet have a Copilot subscription, you can use Copilot for free by signing up for the [Copilot Free plan](https://github.com/github-copilot/signup) and get a monthly limit of completions and chat interactions.
+4. [Habilite recursos de IA](/docs/copilot/setup.md)
 
-1. [Get started with the VS Code tutorial](/docs/getstarted/getting-started.md)
+  > [!TIP]
+  > Se você ainda não tem uma assinatura do Copilot, pode usá-lo gratuitamente
+  > inscrevendo-se no
+  > [Plano Copilot Gratuito](https://github.com/github-copilot/signup) e obter
+  > um limite mensal de preenchimento automático e interações de bate-papo.
 
-    Discover the user interface and key features of VS Code.
+1. [Tutorial de introdução ao VS Code](/docs/getstarted/getting-started.md)
+
+  Descubra a interface da pessoa usuária e os principais recursos do VS Code.
 
 ## Update cadence
 
