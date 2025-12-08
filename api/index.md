@@ -1,68 +1,140 @@
 ---
+# Copyright (c) Microsoft Corporation.
+# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+# Microsoft Corporation.
+# All rights reserved.
+#
+# Documentation licensed under the Creative Commons Attribution 3.0 United
+# States License.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/microsoft/vscode-docs/blob/-/LICENSE.md
+
+source_url: https://github.com/microsoft/vscode-docs/blob/main/api/index.md
+revision: 9ac43da9f748caec99e0cfdf9bbcd3efdc57353a
+status: ready
+
 # DO NOT TOUCH — Managed by doc writer
 ContentId: AD26EFB1-FFC6-4284-BAB8-F3BCB8294728
 DateApproved: 11/12/2025
 
 # Summarize the whole topic in less than 300 characters for SEO purpose
-MetaDescription: Visual Studio Code has a rich extension API. Learn how to create your own extensions for VS Code.
+MetaDescription: >-
+  O Visual Studio Code possui uma rica API de Extensão.
+  Aprenda como criar suas próprias extensões para o VS Code.
 ---
 
-# Extension API
+# API de Extensão
 
-Visual Studio Code is built with extensibility in mind. From the UI to the editing experience, almost every part of VS Code can be customized and enhanced through the Extension API. In fact, many core features of VS Code are built as [extensions](https://github.com/microsoft/vscode/tree/main/extensions) and use the same Extension API.
+O Visual Studio Code foi desenvolvido com a extensibilidade em mente.
+Da interface da pessoa usuária à experiência de edição, quase todas as partes do
+VS Code podem ser personalizadas e aprimoradas por meio da API de Extensão.
+Na verdade, muitos recursos principais do VS Code são criados como
+[extensões](https://github.com/microsoft/vscode/tree/main/extensions) e usam a
+mesma API de Extensão.
 
-This documentation describes:
+Esta documentação descreve:
 
-* How to build, run, debug, test, and publish an extension
-* How to take advantage of VS Code's rich Extension API
-* Where to find [guides](https://code.visualstudio.com/api/extension-guides/overview) and [code samples](https://github.com/microsoft/vscode-extension-samples) to help get you started
-* Following our [UX guidelines](/api/ux-guidelines/overview) for best practices
+* Como criar, executar, depurar, testar e publicar uma extensão;
+* Como aproveitar a rica API de Extensão do VS Code;
+* Onde encontrar
+  [guias](https://code.visualstudio.com/api/extension-guides/overview) e
+  [exemplos de código](https://github.com/microsoft/vscode-extension-samples)
+  para ajudar você a começar;
+* Como seguir nossas [diretrizes de UX](/api/ux-guidelines/overview) para as
+  melhores práticas.
 
-Code samples are available at [Microsoft/vscode-extension-samples](https://github.com/microsoft/vscode-extension-samples).
+Exemplos de código estão disponíveis em
+[Microsoft/vscode-extension-samples](https://github.com/microsoft/vscode-extension-samples).
 
-If you are looking for published extensions, head to the [VS Code Extension Marketplace](https://marketplace.visualstudio.com/vscode).
+Se você procura extensões publicadas, acesse o
+[VS Code Extension Marketplace](https://marketplace.visualstudio.com/vscode).
 
-## What can extensions do?
+## O que as extensões podem fazer?
 
-Here are some examples of what you can achieve with the Extension API:
+Aqui estão alguns exemplos do que você pode fazer com a API de Extensão:
 
-* Change the look of VS Code with a color or file icon theme - [Theming](/api/extension-capabilities/theming)
-* Add custom components & views in the UI - [Extending the Workbench](/api/extension-capabilities/extending-workbench)
-* Create a Webview to display a custom webpage built with HTML/CSS/JS - [Webview Guide](/api/extension-guides/webview)
-* Support a new programming language - [Language Extensions Overview](/api/language-extensions/overview)
-* Support debugging a specific runtime - [Debugger Extension Guide](/api/extension-guides/debugger-extension)
+* Alterar a aparência do VS Code com um tema de cores ou ícones de arquivo -
+  [Temas](/api/extension-capabilities/theming);
+* Adicionar componentes e visualizações personalizados à interface da pessoa
+  usuária -
+  [Estendendo o Workbench](/api/extension-capabilities/extending-workbench);
+* Criar uma WebView para exibir uma página web personalizada criada com
+  HTML/CSS/JS - [Guia da WebView](/api/extension-guides/webview);
+* Dar suporte a uma nova linguagem de programação -
+  [Visão geral das extensões de linguagem](/api/language-extensions/overview);
+* Dar suporte à depuração de um ambiente de execução específico -
+  [Guia da extensão de depuração](/api/extension-guides/debugger-extension).
 
-If you'd like to have a more comprehensive overview of the Extension API, refer to the [Extension Capabilities Overview](/api/extension-capabilities/overview) page. [Extension Guides Overview](/api/extension-guides/overview) also includes a list of code samples and guides that illustrate various Extension API usage.
+Se você quiser uma visão geral mais completa da API de Extensão, consulte a
+página
+[Visão geral dos recursos de extensão](/api/extension-capabilities/overview).
+A [Visão geral dos guias de extensão](/api/extension-guides/overview) também
+inclui uma lista de exemplos de código e guias que ilustram vários usos da API
+de Extensão.
 
-## How to build extensions?
+## Como criar extensões?
 
-Building a good extension can take a lot of time and effort. Here is what each section of the API docs can help you with:
+Criar uma boa extensão pode exigir muito tempo e esforço.
+Veja como cada seção da documentação da API pode te ajudar:
 
-* **Get Started** teaches fundamental concepts for building extensions with the [Hello World](https://github.com/microsoft/vscode-extension-samples/tree/main/helloworld-sample) sample.
-* **Extension Capabilities** dissects VS Code's vast API into smaller categories and points you to more detailed topics.
-* **Extension Guides** includes guides and code samples that explain specific usages of VS Code Extension API.
-* **UX Guidelines** showcases best practices for providing a great user experience in an extension.
-* **Language Extensions** illustrates how to add support for a programming language with guides and code samples.
-* **Testing and Publishing** includes in-depth guides on various extension development topics, such as [testing](/api/working-with-extensions/testing-extension) and [publishing](/api/working-with-extensions/publishing-extension) extensions.
-* **Advanced Topics** explains advanced concepts such as [Extension Host](/api/advanced-topics/extension-host), [Supporting Remote Development and GitHub Codespaces](/api/advanced-topics/remote-extensions), and [Proposed API](/api/advanced-topics/using-proposed-api).
-* **References** contains exhaustive references for the [VS Code API](/api/references/vscode-api), [Contribution Points](/api/references/contribution-points), and many other topics.
+* **Primeiros passos** ensina conceitos fundamentais para criar extensões com o
+  exemplo
+  [Olá, mundo!](https://github.com/microsoft/vscode-extension-samples/tree/main/helloworld-sample);
+* **Recursos de extensão** divide a vasta API do VS Code em categorias menores e
+  direciona você para tópicos mais detalhados;
+* **Guias de extensão** inclui guias e exemplos de código que explicam usos
+  específicos da API de Extensão do VS Code;
+* **Diretrizes de UX** apresenta as melhores práticas para proporcionar uma
+  ótima experiência de pessoa usuária em uma extensão;
+* **Extensões de linguagem** ilustra como adicionar suporte a uma linguagem de
+  programação com guias e exemplos de código;
+* **Testes e publicação** inclui guias detalhados sobre vários tópicos de
+  desenvolvimento de extensões, como
+  [testes](/api/working-with-extensions/testing-extension) e
+  [publicação](/api/working-with-extensions/publishing-extension);
+* **Tópicos avançados** explica conceitos avançados como
+  [host de extensão](/api/advanced-topics/extension-host),
+  [suporte a desenvolvimento remoto e codespaces do GitHub](/api/advanced-topics/remote-extensions)
+  e [APIs propostas](/api/advanced-topics/using-proposed-api);
+* **Referências** contém referências completas para a
+  [API do VS Code](/api/references/vscode-api),
+  [pontos de contribuição](/api/references/contribution-points) e muitos outros
+  tópicos.
 
-## What's new?
+## Novidades
 
-VS Code updates on a monthly cadence, and that applies to the Extension API as well. New features and APIs become available every month to increase the power and scope of VS Code extensions.
+O VS Code é atualizado mensalmente, e isso também se aplica à API de Extensão.
+Novos recursos e APIs são disponibilizados todos os meses para aumentar o poder
+e o alcance das extensões do VS Code.
 
-To stay current with the Extension API, you can review the monthly release notes, which have dedicated sections covering:
+Para acompanhar as atualizações da API de Extensão, você pode consultar as notas
+de versão mensais, que contêm seções dedicadas a:
 
-* [Extension authoring](https://code.visualstudio.com/updates#_extension-authoring) - Learn what new extension APIs are available in the latest release.
-* [Proposed extension APIs](https://code.visualstudio.com/updates#_proposed-extension-apis) - Review and give feedback on upcoming proposed APIs.
+* [Autoria de extensões](https://code.visualstudio.com/updates#_extension-authoring)
+  \- Saiba quais novas APIs de extensão estão disponíveis na versão mais
+  recente;
+* [APIs de extensão propostas](https://code.visualstudio.com/updates#_proposed-extension-apis)
+  \- Revise e envie feedback sobre as APIs propostas para os próximos meses.
 
-## Looking for help
+## Precisa de ajuda?
 
-If you have questions for extension development, try asking on:
+Se você tiver dúvidas sobre o desenvolvimento de extensões, tente perguntar em:
 
-* [VS Code Discussions](https://github.com/microsoft/vscode-discussions): GitHub community to discuss VS Code's extension platform, ask questions, help other members of the community, and get answers.
-* [Stack Overflow](https://stackoverflow.com/questions/tagged/vscode-extensions): There are [thousands of questions](https://stackoverflow.com/questions/tagged/vscode-extensions) tagged `vscode-extensions`, and over half of them already have answers. Search for your issue, ask questions, or help your fellow developers by answering VS Code extension development questions!
-* [VS Code Dev Slack](https://vscode-dev-community.slack.com): Public chatroom for extension developers. VS Code team members often join in the conversations.
+* [Discussões do VS Code](https://github.com/microsoft/vscode-discussions):
+  Comunidade do GitHub para discutir a plataforma de extensões do VS Code, fazer
+  perguntas, ajudar outras pessoas da comunidade e obter respostas;
+* [Stack Overflow](https://stackoverflow.com/questions/tagged/vscode-extensions):
+  Existem [milhares de perguntas](https://stackoverflow.com/questions/tagged/vscode-extensions)
+  com a tag `vscode-extensions`, e mais da metade delas já possui respostas.
+  Pesquise seu problema, faça perguntas ou ajude outras pessoas desenvolvedoras
+  respondendo a perguntas sobre desenvolvimento de extensões do VS Code!
+* [VS Code Dev Slack](https://vscode-dev-community.slack.com):
+  Sala de bate-papo pública para pessoas desenvolvedoras de extensões.
+  Pessoas qu fazem parte da equipe do VS Code frequentemente participam das
+  conversas.
 
-To provide feedback on the documentation, create new issues at [Microsoft/vscode-docs](https://github.com/microsoft/vscode-docs/issues).
-If you have extension questions that you cannot find an answer for, or issues with the VS Code Extension API, please open new issues at [Microsoft/vscode](https://github.com/microsoft/vscode/issues).
+Para fornecer feedback sobre a documentação, crie novas issues em
+[Microsoft/vscode-docs](https://github.com/microsoft/vscode-docs/issues).
+Se você tiver dúvidas sobre extensões para as quais não encontrou resposta, ou
+problemas com a API de Extensão do VS Code, abra novas issues em
+[Microsoft/vscode](https://github.com/microsoft/vscode/issues).
