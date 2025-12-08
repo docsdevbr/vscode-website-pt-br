@@ -77,7 +77,7 @@ de Extensão.
 Criar uma boa extensão pode exigir muito tempo e esforço.
 Veja como cada seção da documentação da API pode te ajudar:
 
-* **Primeiros passos** ensina conceitos fundamentais para criar extensões com o
+* **Introdução** ensina conceitos fundamentais para criar extensões com o
   exemplo
   [Olá, mundo!](https://github.com/microsoft/vscode-extension-samples/tree/main/helloworld-sample);
 * **Recursos de extensão** divide a vasta API do VS Code em categorias menores e
@@ -94,7 +94,7 @@ Veja como cada seção da documentação da API pode te ajudar:
   [publicação](/api/working-with-extensions/publishing-extension);
 * **Tópicos avançados** explica conceitos avançados como
   [host de extensão](/api/advanced-topics/extension-host),
-  [suporte a desenvolvimento remoto e codespaces do GitHub](/api/advanced-topics/remote-extensions)
+  [suporte a desenvolvimento remoto e Codespaces do GitHub](/api/advanced-topics/remote-extensions)
   e [APIs propostas](/api/advanced-topics/using-proposed-api);
 * **Referências** contém referências completas para a
   [API do VS Code](/api/references/vscode-api),
@@ -130,8 +130,7 @@ Se você tiver dúvidas sobre o desenvolvimento de extensões, tente perguntar e
   respondendo a perguntas sobre desenvolvimento de extensões do VS Code!
 * [VS Code Dev Slack](https://vscode-dev-community.slack.com):
   Sala de bate-papo pública para pessoas desenvolvedoras de extensões.
-  Pessoas qu fazem parte da equipe do VS Code frequentemente participam das
-  conversas.
+  Pessoas da equipe do VS Code frequentemente participam das conversas.
 
 Para fornecer feedback sobre a documentação, crie novas issues em
 [Microsoft/vscode-docs](https://github.com/microsoft/vscode-docs/issues).
