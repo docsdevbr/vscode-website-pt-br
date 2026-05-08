@@ -4,10 +4,11 @@
 # Microsoft Corporation.
 # All rights reserved.
 #
+# SPDX-License-Identifier: CC-BY-3.0-US
 # Documentation licensed under the Creative Commons Attribution 3.0 United
 # States License.
 # The original work was translated from English into Brazilian Portuguese.
-# https://github.com/microsoft/vscode-docs/blob/-/LICENSE.md
+# https://github.com/docsdevbr/vscode-website-pt-br/blob/-/LICENSES/CC-BY-3.0-US.txt
 
 ContentId: 52ad40fe-f352-4e16-a075-7a9606c5df3b
 DateApproved: 10/03/2025

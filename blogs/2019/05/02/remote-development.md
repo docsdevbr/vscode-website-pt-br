@@ -4,10 +4,11 @@
 # Microsoft Corporation.
 # All rights reserved.
 #
+# SPDX-License-Identifier: CC-BY-3.0-US
 # Documentation licensed under the Creative Commons Attribution 3.0 United
 # States License.
 # The original work was translated from English into Brazilian Portuguese.
-# https://github.com/microsoft/vscode-docs/blob/-/LICENSE.md
+# https://github.com/docsdevbr/vscode-website-pt-br/blob/-/LICENSES/CC-BY-3.0-US.txt
 
 Order:
 TOCTitle: Remote Development
@@ -98,10 +99,11 @@ For more information, please see the [Developing in WSL](https://aka.ms/vscode-r
 # Microsoft Corporation.
 # All rights reserved.
 #
+# SPDX-License-Identifier: CC-BY-3.0-US
 # Documentation licensed under the Creative Commons Attribution 3.0 United
 # States License.
 # The original work was translated from English into Brazilian Portuguese.
-# https://github.com/microsoft/vscode-docs/blob/-/LICENSE.md
+# https://github.com/docsdevbr/vscode-website-pt-br/blob/-/LICENSES/CC-BY-3.0-US.txt
 
 
 The **[Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)** extension lets you open folders or workspaces hosted on any remote machine, VM, or container with a running SSH server. Development over SSH lets you:

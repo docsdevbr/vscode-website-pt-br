@@ -1,4 +1,15 @@
 ---
+# Copyright (c) Microsoft Corporation.
+# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+# Microsoft Corporation.
+# All rights reserved.
+#
+# SPDX-License-Identifier: CC-BY-3.0-US
+# Documentation licensed under the Creative Commons Attribution 3.0 United
+# States License.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/docsdevbr/vscode-website-pt-br/blob/-/LICENSES/CC-BY-3.0-US.txt
+
 ContentId: edd2c270-152c-419d-b5d9-06f2f95979cd
 DateApproved: 5/3/2024
 MetaDescription: C# Dev Kit extension Frequently Asked Questions (FAQ)

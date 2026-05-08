@@ -1,3 +1,16 @@
+---
+# Copyright (c) Microsoft Corporation.
+# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+# Microsoft Corporation.
+# All rights reserved.
+#
+# SPDX-License-Identifier: CC-BY-3.0-US
+# Documentation licensed under the Creative Commons Attribution 3.0 United
+# States License.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/docsdevbr/vscode-website-pt-br/blob/-/LICENSES/CC-BY-3.0-US.txt
+---
+
 # Modernizing your legacy Java Apps
 
 The [GitHub Copilot App Modernization extension](https://marketplace.visualstudio.com/items?itemName=vscjava.migrate-java-to-azure), provides powerful capabilities to help developers modernize legacy Java applications with greater speed, accuracy, and efficiency.

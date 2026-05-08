@@ -1,4 +1,15 @@
 ---
+# Copyright (c) Microsoft Corporation.
+# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+# Microsoft Corporation.
+# All rights reserved.
+#
+# SPDX-License-Identifier: CC-BY-3.0-US
+# Documentation licensed under the Creative Commons Attribution 3.0 United
+# States License.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/docsdevbr/vscode-website-pt-br/blob/-/LICENSES/CC-BY-3.0-US.txt
+
 ContentId: f4507411-1780-4b80-8816-657c09585c19
 DateApproved: 6/6/2023
 MetaDescription: See how you can run and debug your C# source code

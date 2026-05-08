@@ -1,4 +1,15 @@
 ---
+# Copyright (c) Microsoft Corporation.
+# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
+# Microsoft Corporation.
+# All rights reserved.
+#
+# SPDX-License-Identifier: CC-BY-3.0-US
+# Documentation licensed under the Creative Commons Attribution 3.0 United
+# States License.
+# The original work was translated from English into Brazilian Portuguese.
+# https://github.com/docsdevbr/vscode-website-pt-br/blob/-/LICENSES/CC-BY-3.0-US.txt
+
 ContentId: 2061194e-c34d-4ab0-a135-088bee575314
 DateApproved: 6/6/2023
 MetaDescription: C# language features such as Go to Definition and Smart selection in Visual Studio Code

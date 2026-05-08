@@ -40,7 +40,7 @@ A obra original foi traduzida do inglês para o português brasileiro.
 
 [badge-github-sponsors]: https://img.shields.io/github/sponsors/docsdevbr
 
-[badge-license]: https://img.shields.io/badge/license-CC--BY--3.0--US-green
+[badge-license]: https://img.shields.io/badge/license-CC--BY--3.0--US-blue
 
 [badge-readme-en]: https://img.shields.io/badge/lang-en-blue
 
@@ -54,7 +54,7 @@ A obra original foi traduzida do inglês para o português brasileiro.
 
 [github-sponsors]: https://github.com/sponsors/docsdevbr
 
-[license]: LICENSE.md
+[license]: LICENSES/CC-BY-3.0-US.txt
 
 [page]: https://pt.docs.dev.br/tech/v/vscode/
 
