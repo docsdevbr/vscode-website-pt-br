@@ -1,5 +1,5 @@
 ---
-# Copyright (c) Microsoft Corporation.
+# SPDX-FileCopyrightText: Microsoft Corporation.
 # Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
 # Microsoft Corporation.
 # All rights reserved.
@@ -48,7 +48,7 @@ function bar(): void {
 Hovering over `bar()` shows the following hover information in Visual Studio Code:
 
 ---
-# Copyright (c) Microsoft Corporation.
+# SPDX-FileCopyrightText: Microsoft Corporation.
 # Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
 # Microsoft Corporation.
 # All rights reserved.

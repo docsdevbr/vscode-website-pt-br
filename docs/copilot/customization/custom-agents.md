@@ -1,5 +1,5 @@
 ---
-# Copyright (c) Microsoft Corporation.
+# SPDX-FileCopyrightText: Microsoft Corporation.
 # Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
 # Microsoft Corporation.
 # All rights reserved.
@@ -57,7 +57,7 @@ To define handoffs in your agent file, add them to the frontmatter. Each handoff
 
 ```markdown
 ---
-# Copyright (c) Microsoft Corporation.
+# SPDX-FileCopyrightText: Microsoft Corporation.
 # Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
 # Microsoft Corporation.
 # All rights reserved.
@@ -125,7 +125,7 @@ The following code snippet shows an example of a "Plan" custom agent file that g
 
 ```markdown
 ---
-# Copyright (c) Microsoft Corporation.
+# SPDX-FileCopyrightText: Microsoft Corporation.
 # Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
 # Microsoft Corporation.
 # All rights reserved.

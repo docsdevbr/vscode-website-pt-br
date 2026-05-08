@@ -1,5 +1,5 @@
 ---
-# Copyright (c) Microsoft Corporation.
+# SPDX-FileCopyrightText: Microsoft Corporation.
 # Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
 # Microsoft Corporation.
 # All rights reserved.
@@ -70,7 +70,7 @@ The following examples demonstrate how to use prompt files. For more community-c
 
 ```markdown
 ---
-# Copyright (c) Microsoft Corporation.
+# SPDX-FileCopyrightText: Microsoft Corporation.
 # Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
 # Microsoft Corporation.
 # All rights reserved.
@@ -109,7 +109,7 @@ Requirements for the form:
 
 ```markdown
 ---
-# Copyright (c) Microsoft Corporation.
+# SPDX-FileCopyrightText: Microsoft Corporation.
 # Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
 # Microsoft Corporation.
 # All rights reserved.

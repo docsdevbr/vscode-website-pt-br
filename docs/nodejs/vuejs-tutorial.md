@@ -1,5 +1,5 @@
 ---
-# Copyright (c) Microsoft Corporation.
+# SPDX-FileCopyrightText: Microsoft Corporation.
 # Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
 # Microsoft Corporation.
 # All rights reserved.
@@ -21,7 +21,7 @@ MetaDescription: Vue JavaScript tutorial showing IntelliSense, debugging, and co
 >**Note**: [Vue 2 support ended on December 31st, 2023](https://v2.vuejs.org/lts/), so the use of the [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) extension is [not recommended](https://github.com/vuejs/vetur/discussions/3378). You will need to [disable Vetur](https://vuejs.org/guide/typescript/overview.html#ide-support) to use the Vue - Official extension.
 
 ---
-# Copyright (c) Microsoft Corporation.
+# SPDX-FileCopyrightText: Microsoft Corporation.
 # Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
 # Microsoft Corporation.
 # All rights reserved.
@@ -149,7 +149,7 @@ Once you save the `App.vue` file (`kb(workbench.action.files.save)`), Vite's [Ho
 >**Tip**: VS Code supports Auto Save, which by default saves your files after a delay. Check the **Auto Save** option in the **File** menu to turn on Auto Save or directly configure the `files.autoSave` user [setting](/docs/configure/settings.md).
 
 ---
-# Copyright (c) Microsoft Corporation.
+# SPDX-FileCopyrightText: Microsoft Corporation.
 # Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
 # Microsoft Corporation.
 # All rights reserved.

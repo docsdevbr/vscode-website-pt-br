@@ -1,5 +1,5 @@
 ---
-# Copyright (c) Microsoft Corporation.
+# SPDX-FileCopyrightText: Microsoft Corporation.
 # Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
 # Microsoft Corporation.
 # All rights reserved.
@@ -177,7 +177,7 @@ Use custom instructions to define project-specific coding conventions and patter
 
 ```markdown
 ---
-# Copyright (c) Microsoft Corporation.
+# SPDX-FileCopyrightText: Microsoft Corporation.
 # Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
 # Microsoft Corporation.
 # All rights reserved.
