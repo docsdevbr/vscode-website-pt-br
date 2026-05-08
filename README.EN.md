@@ -67,6 +67,4 @@ The original work was translated from English into Brazilian Portuguese.
 
 [reuse]: https://api.reuse.software/info/github.com/docsdevbr/vscode-website-pt-br
 
-[sponsor]: https://en.docs.dev.br/sponsor
-
-[support]: https://github.com/docsdevbr/.github/blob/main/CODE_OF_CONDUCT.EN.md
+[sponsor]: https://en.docs.dev.br/sponsor.html

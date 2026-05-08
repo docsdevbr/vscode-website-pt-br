@@ -67,4 +67,4 @@ A obra original foi traduzida do inglês para o português brasileiro.
 
 [reuse]: https://api.reuse.software/info/github.com/docsdevbr/vscode-website-pt-br
 
-[sponsor]: https://pt.docs.dev.br/sponsor
+[sponsor]: https://pt.docs.dev.br/sponsor.html
