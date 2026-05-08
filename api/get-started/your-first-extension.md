@@ -10,27 +10,39 @@
 # The original work was translated from English into Brazilian Portuguese.
 # https://github.com/docsdevbr/vscode-website-pt-br/blob/-/LICENSES/CC-BY-3.0-US.txt
 
+source_url: https://github.com/microsoft/vscode-docs/blob/main/api/get-started/your-first-extension.md
+revision: 9ac43da9f748caec99e0cfdf9bbcd3efdc57353a
+status: wip
+
 # DO NOT TOUCH — Managed by doc writer
 ContentId: DC915D6C-13D4-4022-9101-57C4A4118B07
 DateApproved: 11/12/2025
 
 # Summarize the whole topic in less than 300 characters for SEO purpose
-MetaDescription: Create your first Visual Studio Code extension (plug-in) with a simple Hello World example.
+MetaDescription: >-
+  Crie sua primeira extensão (plug-in) para o Visual Studio Code com um exemplo
+  simples de "Olá, mundo!".
 ---
 
-# Your First Extension
+# Sua primeira extensão
 
-In this topic, we'll teach you the fundamental concepts for building extensions. Make sure you have [Node.js](https://nodejs.org) and [Git](https://git-scm.com/) installed.
+Neste tópico, ensinaremos os conceitos fundamentais para a criação de extensões.
+Certifique-se de ter o [Node.js](https://nodejs.org) e o
+[Git](https://git-scm.com/) instalados.
 
-First, use [Yeoman](https://yeoman.io/) and [VS Code Extension Generator](https://www.npmjs.com/package/generator-code) to scaffold a TypeScript or JavaScript project ready for development.
+Primeiro, use o [Yeoman](https://yeoman.io/) e o
+[VS Code Extension Generator](https://www.npmjs.com/package/generator-code) para
+criar um projeto TypeScript ou JavaScript pronto para desenvolvimento.
 
-- If you do not want to install Yeoman for later use, run the following command:
+- Se você não quiser instalar o Yeoman para uso posterior, execute o seguinte
+  comando:
 
   ```bash
   npx --package yo --package generator-code -- yo code
   ```
 
-- If you instead want to install Yeoman globally to ease running it repeatedly, run the following command:
+- Se, em vez disso, você quiser instalar o Yeoman globalmente para facilitar sua
+  execução repetida, execute o seguinte comando:
 
   ```bash
   npm install --global yo generator-code
@@ -38,22 +50,24 @@ First, use [Yeoman](https://yeoman.io/) and [VS Code Extension Generator](https:
   yo code
   ```
 
-For a TypeScript project, fill out the following fields:
+Para um projeto TypeScript, preencha os seguintes campos:
 
 ```bash
 # ? What type of extension do you want to create? New Extension (TypeScript)
-# ? What's the name of your extension? HelloWorld
+# ? What's the name of your extension? OlaMundo
 ### Press <Enter> to choose default for all options below ###
 
-# ? What's the identifier of your extension? helloworld
-# ? What's the description of your extension? LEAVE BLANK
+# ? What's the identifier of your extension? olamundo
+# ? What's the description of your extension? <Deixe em branco>
 # ? Initialize a git repository? Y
 # ? Which bundler to use? unbundled
 # ? Which package manager to use? npm
 
 # ? Do you want to open the new folder with Visual Studio Code? Open with `code`
-
 ```
+
+Dentro do editor, abra o arquivo `src/extension.ts` e pressione
+`kb(workbench.action.debug.start)` ou execute o comando **Depurar: Iniciar Depuração** na Paleta de Comandos (`kb(workbench.action.showCommands)`). Isso compilará e executará a extensão em uma nova janela do **Host de Desenvolvimento de Extensões**.
 
 Inside the editor, open `src/extension.ts` and press `kb(workbench.action.debug.start)` or run the command **Debug: Start Debugging** from the Command Palette (`kb(workbench.action.showCommands)`). This will compile and run the extension in a new **Extension Development Host** window.
 
@@ -63,7 +77,7 @@ Run the **Hello World** command from the Command Palette (`kb(workbench.action.s
   <source src="/assets/api/get-started/your-first-extension/launch.mp4" type="video/mp4">
 </video>
 
-You should see the `Hello World from HelloWorld!` notification showing up. Success!
+You should see the `Hello World from OlaMundo!` notification showing up. Success!
 
 If you aren't able to see the **Hello World** command in the debug window, check the `package.json` file and make sure that `engines.vscode` version is compatible with the installed version of VS Code.
 
@@ -71,7 +85,7 @@ If you aren't able to see the **Hello World** command in the debug window, check
 
 Let's make a change to the message:
 
-1. Change the message from "Hello World from HelloWorld!" to "Hello VS Code" in `extension.ts`.
+1. Change the message from "Hello World from OlaMundo!" to "Hello VS Code" in `extension.ts`.
 1. Run **Developer: Reload Window** in the new window.
 1. Run the command **Hello World** again.
 
