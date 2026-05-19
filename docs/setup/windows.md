@@ -10,145 +10,230 @@
 # The original work was translated from English into Brazilian Portuguese.
 # https://github.com/docsdevbr/vscode-website-pt-br/blob/-/LICENSES/CC-BY-3.0-US.txt
 
+source_url: https://github.com/microsoft/vscode-docs/blob/main/docs/setup/windows.md
+revision: 002f098cbbea65f2bed2e8cb84ce1decedaba851
+status: ready
+
 ContentId: 4670C281-5761-46E6-8C46-10D523946FFB
-DateApproved: 11/12/2025
-MetaDescription: Get Visual Studio Code up and running on Windows
+DateApproved: 5/13/2026
+MetaDescription: >-
+  Instale o Visual Studio Code no Windows, escolha a instalação de usuário ou
+  sistema e configure as ferramentas de desenvolvedor do Windows.
+MetaSocialImage: images/quicksetup/quick-setup-social.png
 ---
-# Visual Studio Code on Windows
 
-## Installation
+# Instalando o Visual Studio Code no Windows
 
-1. [Download and install Visual Studio Code](#install-vs-code-on-windows)
+O Visual Studio Code está disponível para Windows por meio de um instalador de
+usuário, um instalador de sistema e um arquivo ZIP.
+A instalação de usuário é a recomendada para a maioria das pessoas, pois não
+requer permissões de administrador e oferece atualizações em segundo plano mais
+suaves.
 
-    > [!NOTE]
-    > VS Code ships monthly releases and supports [auto-update](#updates) when a new release is available.
+## Instale o VS Code no Windows
 
-1. [Install additional components](/docs/setup/additional-components.md)
+### Escolha a instalação de usuário ou a instalação de sistema
 
-    Install Git, Node.js, TypeScript, language runtimes, and more.
+O VS Code oferece instalações em nível de usuário e em nível de sistema no
+Windows.
 
-1. [Install VS Code extensions from the Visual Studio Marketplace](https://marketplace.visualstudio.com/VSCode)
+| Tipo de instalação                                                      | Usar quando                                          | Observações |
+|-------------------------------------------------------------------------|------------------------------------------------------|-------|
+| [Instalação de usuário](https://go.microsoft.com/fwlink/?LinkID=534107) | Instale o VS Code para sua conta do Windows.         | Esta instalação não requer permissões de administrador. Ela é instalada em `%LOCALAPPDATA%\Programs\Microsoft VS Code` e oferece a experiência de atualização mais suave. As atualizações são desativadas quando o VS Code é executado como administrador a partir de uma instalação de usuário. |
+| [Instalação de sistema](https://go.microsoft.com/fwlink/?linkid=852157) | Instale o VS Code para todos os usuários da máquina. | Esta instalação requer permissões de administrador e é feita em `Arquivos de Programas`. As atualizações internas também exigem privilégios elevados. |
 
-    Customize VS Code with themes, formatters, language extensions and debuggers for your favorite languages, and more.
+Consulte a página [Baixe o Visual Studio Code](/download) para obter a lista
+completa de opções de instalação.
 
-1. [Enable AI features](/docs/copilot/setup.md)
+### Instale com o instalador de usuário
 
-    > [!TIP]
-    > If you don't yet have a Copilot subscription, you can use Copilot for free by signing up for the [Copilot Free plan](https://github.com/github-copilot/signup) and get a monthly limit of completions and chat interactions.
+1. Baixe o
+   [Instalador de usuário do Visual Studio Code](https://go.microsoft.com/fwlink/?LinkID=534107)
+   para Windows.
 
-1. [Get started with the VS Code tutorial](/docs/getstarted/getting-started.md)
+2. Execute o instalador, `VSCodeUserSetup-{versão}.exe`.
 
-    Discover the user interface and key features of VS Code.
-
-## Install VS Code on Windows
-
-### Use the Windows installer
-
-1. Download the [Visual Studio Code installer](https://go.microsoft.com/fwlink/?LinkID=534107) for Windows
-
-1. Once it is downloaded, run the installer (VSCodeUserSetup-{version}.exe)
-
-    By default, VS Code is installed under `C:\Users\{Username}\AppData\Local\Programs\Microsoft VS Code`.
+   Por padrão, o instalador de usuário instala o VS Code em
+   `C:\Users\{Nome de usuário}\AppData\Local\Programs\Microsoft VS Code`.
 
 > [!TIP]
-> Setup adds Visual Studio Code to your `%PATH%` environment variable, to let you type 'code .' in the console to open VS Code on that folder. You need to restart your console after the installation for the change to the `%PATH%` environmental variable to take effect.
+>
+> O instalador adiciona o Visual Studio Code à sua variável de ambiente
+> `%PATH%`.
+> Reinicie o console após a instalação e execute `code .` em uma pasta para
+> abri-la no VS Code.
 
-### Use the ZIP file
+### Instale com o instalador de sistema
 
-1. Download the [Visual Studio Code Zip archive](/docs/?dv=winzip)
+1. Baixe o
+   [instalador de sistema do Visual Studio Code](https://go.microsoft.com/fwlink/?linkid=852157)
+   para Windows.
 
-1. Extract the Zip archive, and run VS Code from there
+2. Execute o instalador com permissões de administrador.
 
-## User setup versus system setup
+O instalador do sistema disponibiliza o VS Code para todos os usuários do
+computador.
 
-VS Code provides both Windows **user** and **system** level setups.
+### Instale a partir de um arquivo ZIP
 
-| Setup Type | Description |
-|------------|-------------|
-| [User setup](https://go.microsoft.com/fwlink/?LinkID=534107) | Does not require administrator privileges to run, as the location is under your user Local AppData (`LOCALAPPDATA`) folder. Since it requires no elevation, the user setup is able to provide a smoother background update experience.<br/>This is the preferred way to install VS Code on Windows. <br/> **Note:** When running VS Code as Administrator in a user setup installation, updates are disabled. |
-| [System setup](https://go.microsoft.com/fwlink/?linkid=852157) | Requires elevation to administrator privileges to run and places the installation under the system's `Program Files`. The in-product update flow also requires elevation, making it less streamlined than the user setup. On the other hand, installing VS Code using the system setup means that it is available to all users in the system. |
+1. Baixe o [arquivo ZIP do Visual Studio Code](/download) para Windows.
 
-See the [Download Visual Studio Code](/download) page for a complete list of available installation options.
-
-## Updates
-
-VS Code ships monthly [releases](/updates) and supports auto-update when a new release is available. If you're prompted by VS Code, accept the newest update and it will be installed (you won't need to do anything else to get the latest bits).
-
-> [!NOTE]
-> You can [disable auto-update](/docs/supporting/faq.md#how-do-i-opt-out-of-vs-code-autoupdates) if you prefer to update VS Code on your own schedule.
-
-## Windows as a developer machine
-
-Windows is a popular operating system and it can also be a great cross-platform development environment. This section describes cross-platform features such as the [Windows Subsystem for Linux](https://learn.microsoft.com/windows/wsl/install) (WSL) and the Windows Terminal.
+2. Extraia o arquivo ZIP e execute o VS Code a partir da pasta extraída.
 
 > [!NOTE]
-> Make sure you are on a recent Windows build. Check **Settings** > **Windows Update** to see if you are up-to-date.
+>
+> Quando o VS Code é instalado a partir de um arquivo ZIP, atualize-o
+> manualmente para cada [versão](/updates).
 
-### Windows Subsystem for Linux
+## Atualizações
 
-With WSL, you can install and run Linux distributions on Windows to develop and test your source code on Linux, while still working locally on your Windows machine.
-
-When coupled with the [WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) extension, you get full VS Code editing and debugging support while running in the context of WSL.
-
-See the [Developing in WSL](/docs/remote/wsl.md) documentation to learn more, or try the [Working in WSL](/docs/remote/wsl-tutorial.md) introductory tutorial.
-
-### Windows Terminal
-
-The [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701), available from the Microsoft Store, is a terminal application for users of command-line tools and shells like Command Prompt, PowerShell, and WSL. Its main features include multiple tabs, panes, Unicode and UTF-8 character support, a GPU accelerated text rendering engine, and custom themes, styles, and configurations.
-
-## Next steps
-
-Once you have installed VS Code, these topics will help you learn more about it:
-
-* [VS Code tutorial](/docs/getstarted/getting-started.md) - A quick hands-on tour of the key features of VS Code.
-* [Tips and Tricks](/docs/getstarted/tips-and-tricks.md) - A collection of productivity tips for working with VS Code.
-* [AI-assisted coding](/docs/copilot/overview.md) - Learn about using GitHub Copilot in VS Code to help you write code faster.
-
-## Common questions
-
-### What command-line arguments are supported by the Windows Setup?
-
-VS Code uses [Inno Setup](https://www.jrsoftware.org/isinfo.php) to create its setup package
-for Windows. Thus, all the [Inno Setup command-line switches](https://www.jrsoftware.org/ishelp/index.php?topic=setupcmdline) are available for use.
-
-Additionally, you can prevent the Setup from launching VS Code after completion with `/mergetasks=!runcode`.
-
-### I'm having trouble with the installer
-
-Try using the [zip file](/docs/?dv=winzip) instead of the installer.  To use this, unzip VS Code in your `AppData\Local\Programs` folder.
+O VS Code lança [atualizações](/updates) semanais e oferece suporte à
+atualização automática quando uma nova versão estiver disponível.
+Quando o VS Code solicitar uma atualização, aceite a solicitação para instalar a
+nova versão.
 
 > [!NOTE]
-> When VS Code is installed via a Zip file, you will need to manually update it for each [release](/updates).
+>
+> [Desative a atualização automática](/docs/supporting/faq.md#how-do-i-opt-out-of-vs-code-auto-updates)
+> se preferir atualizar o VS Code de acordo com sua própria agenda.
 
-### Unable to run as admin when AppLocker is enabled
+## Desenvolva no Windows
 
-With the introduction of process sandboxing (discussed in this [blog post](https://code.visualstudio.com/blogs/2022/11/28/vscode-sandbox)) running as administrator is currently unsupported when AppLocker is configured due to a limitation of the runtime sandbox.
-
-If your work requires that you run VS Code from an elevated terminal:
-
-1. In VS Code, run the **Preferences: Configure Runtime Arguments** command in the Command Palette (`kb(workbench.action.showCommands)`)
-
-    This command opens an `argv.json` file to configure runtime arguments for VS Code. You might see some default arguments there already.
-
-1. Add `"disable-chromium-sandbox": true` to the `argv.json` file.
-
-1. Restart VS Code. You should now be able to run VS Code in an elevated terminal.
-
-Subscribe to [issue #122951](https://github.com/microsoft/vscode/issues/122951) to receive updates.
-
-### Working with UNC paths
-
-As of version `1.78.1`, VS Code on Windows only allows access to UNC paths (these begin with a leading `\\`) that were either approved by the user on startup or where the host name is configured to be allowed via the `setting(security.allowedUNCHosts)` setting.
-
-If you rely on using UNC paths in VS Code, you can either:
-
-* Configure the host to be allowed via the `setting(security.allowedUNCHosts)` setting. For example, add `server-a` when you open a path such as `\\server-a\path`.
-
-* [Map the UNC path as a network drive](https://support.microsoft.com/en-us/windows/map-a-network-drive-in-windows-29ce55d1-34e3-a7e2-4801-131475f9557d), and use the drive letter instead of the UNC path.
-
-* Define a global environment variable `NODE_UNC_HOST_ALLOWLIST` with the backslash-separated list of host names to allow. For example, `server-a\server-b` to allow the hosts `server-a` and `server-b`.
+O Windows funciona bem como um ambiente de desenvolvimento multiplataforma.
+Esta seção aborda o
+[Subsistema Windows para Linux](https://learn.microsoft.com/windows/wsl/install)
+(WSL) e o Terminal do Windows.
 
 > [!NOTE]
-> If you are using any of the remote extensions to connect to a workspace remotely (such as SSH), the `setting(security.allowedUNCHosts)` has to be configured on the remote machine and not the local machine.
+>
+> Mantenha o Windows atualizado.
+> Verifique **Settings** > **Windows Update** para obter atualizações
+> disponíveis.
 
-This change was done to improve the security when using VS Code with UNC paths. Please refer to the associated [security advisory](https://github.com/microsoft/vscode/security/advisories/GHSA-mmfh-4pv3-39hr) for more information.
+### Subsistema Windows para Linux
+
+Com o WSL, instale e execute distribuições Linux no Windows para desenvolver e
+testar código-fonte no Linux enquanto trabalha localmente em sua máquina
+Windows.
+
+Quando combinado com a
+[extensão WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl),
+o VS Code oferece suporte para edição e depuração enquanto é executado no
+contexto do WSL.
+
+Consulte a documentação [Desenvolvendo no WSL](/docs/remote/wsl.md) para saber
+mais ou experimente o tutorial introdutório
+[Trabalhando no WSL](/docs/remote/wsl-tutorial.md).
+
+### Terminal do Windows
+
+O [Terminal do Windows](https://apps.microsoft.com/detail/9n0dx20hk701),
+disponível na Microsoft Store, é uma aplicação de terminal para ferramentas de
+linha de comando e shells como o Prompt de Comando, o PowerShell e o WSL.
+Suas principais funcionalidades incluem múltiplas abas, painéis, suporte a
+caracteres Unicode e UTF-8, um mecanismo de renderização de texto acelerado por
+GPU, temas, estilos e configurações personalizados.
+
+## Após a instalação
+
+Após instalar o VS Code, conclua a configuração para o seu fluxo de trabalho de
+desenvolvimento:
+
+* [Instale componentes adicionais](/docs/setup/additional-components.md),
+  incluindo Git, Node.js, TypeScript, ambientes de execução de linguagem e
+  ferramentas de linha de comando.
+* [Instale extensões do Visual Studio Marketplace](https://marketplace.visualstudio.com/VSCode)
+  para adicionar temas, formatadores, depuradores e suporte a linguagens.
+* [Configure o GitHub Copilot](/docs/copilot/setup.md) para usar recursos de IA
+  no VS Code.
+* [Inicie o tutorial do VS Code](/docs/getstarted/getting-started.md) para um
+  tour prático pela interface da pessoa usuária e seus principais recursos.
+
+## Perguntas frequentes
+
+<details>
+<summary>Quais argumentos de linha de comando são suportados pela Instalação do Windows?</summary>
+
+O VS Code usa o [Inno Setup](https://www.jrsoftware.org/isinfo.php) para criar
+seu pacote de instalação do Windows.
+Todas as
+[opções de linha de comando do Inno Setup](https://www.jrsoftware.org/ishelp/index.php?topic=setupcmdline)
+estão disponíveis.
+
+Para impedir que a Instalação inicie o VS Code após a conclusão, use
+`/mergetasks=!runcode`.
+
+</details>
+
+<details>
+<summary>Estou com problemas com o instalador</summary>
+
+Use o [arquivo ZIP](/download) em vez do instalador.
+Para usar este método de instalação, descompacte o VS Code na pasta
+`AppData\Local\Programs`.
+
+</details>
+
+<details>
+<summary>Não é possível executar como administrador com o AppLocker ativado</summary>
+
+Com a introdução do sandbox de processos, a execução como administrador não é
+suportada quando o AppLocker está configurado devido a uma limitação do sandbox
+de tempo de execução.
+Leia a
+[postagem do blog sobre sandbox do VS Code](https://code.visualstudio.com/blogs/2022/11/28/vscode-sandbox)
+para obter mais informações.
+
+Se o seu trabalho exigir que o VS Code seja executado a partir de um terminal
+com privilégios elevados:
+
+1. No VS Code, execute o comando **Preferences: Configure Runtime Arguments** na
+   Paleta de Comandos (`kb(workbench.action.showCommands)`).
+
+   Este comando abre um arquivo `argv.json` para configurar os argumentos de
+   tempo de execução do VS Code.
+   O arquivo pode já conter argumentos padrão.
+
+2. Adicione `"disable-chromium-sandbox": true` ao arquivo `argv.json`.
+
+3. Reinicie o VS Code.
+   O VS Code poderá então ser executado a partir de um terminal com privilégios
+   elevados.
+
+Inscreva-se na
+[issue #122951](https://github.com/microsoft/vscode/issues/122951) para receber
+atualizações.
+
+</details>
+
+<details>
+<summary>Trabalhando com caminhos UNC</summary>
+
+A partir da versão `1.78.1`, o VS Code no Windows só abre caminhos UNC que foram
+aprovados pela pessoa usuária na inicialização ou cujo nome do host foi
+configurado por meio da configuração `setting(security.allowedUNCHosts)`.
+Os caminhos UNC começam com um `\\`.
+
+Se o seu fluxo de trabalho depende de caminhos UNC no VS Code, use uma destas
+opções:
+
+* Configure o host com a configuração `setting(security.allowedUNCHosts)`.
+  Por exemplo, adicione `server-a` ao abrir um caminho como `\\server-a\path`.
+* [Mapeie o caminho UNC como uma unidade de rede](https://support.microsoft.com/en-us/windows/map-a-network-drive-in-windows-29ce55d1-34e3-a7e2-4801-131475f9557d)
+  e use a letra da unidade em vez do caminho UNC.
+* Defina uma variável de ambiente global chamada `NODE_UNC_HOST_ALLOWLIST` com
+  uma lista de nomes de host permitidos, separados por barra invertida.
+  Por exemplo, `server-a\server-b` permite os hosts `server-a` e `server-b`.
+
+> [!NOTE]
+>
+> Se uma extensão remota se conectar a um espaço de trabalho remoto, como por
+> SSH, configure `setting(security.allowedUNCHosts)` na máquina remota, não na
+> máquina local.
+
+Essa alteração melhora a segurança ao usar o VS Code com caminhos UNC.
+Consulte o
+[aviso de segurança](https://github.com/microsoft/vscode/security/advisories/GHSA-mmfh-4pv3-39hr)
+associado para obter mais informações.
+
+</details>
