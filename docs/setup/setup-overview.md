@@ -15,139 +15,176 @@ revision: 38307c037e45ef51640f3f2c040e05e629a347a5
 status: ready
 
 ContentId: FC5262F3-D91D-4665-A5D2-BCBCCF66E53A
-DateApproved: 11/12/2025
-MetaDescription: Instale e execute o Visual Studio Code.
+DateApproved: 5/13/2026
+MetaDescription: >-
+  Instale o Visual Studio Code no Windows, macOS ou Linux e escolha as opções de
+  configuração adequadas ao seu fluxo de trabalho.
 MetaSocialImage: images/quicksetup/quick-setup-social.png
 ---
 
 # Configurando o Visual Studio Code
 
-O VS Code é um editor de código gratuito que funciona nos sistemas operacionais
-macOS, Linux e Windows.
-Começar a usar o Visual Studio Code é rápido e fácil.
-O download é pequeno, então você pode instalá-lo em poucos minutos e
-experimentar o VS Code.
+O Visual Studio Code é um editor de código para Windows, macOS e Linux.
+Use este artigo para escolher um caminho de instalação, verificar os requisitos
+e encontrar opções de configuração relacionadas.
 
-O VS Code é leve e deve funcionar na maioria dos hardwares e plataformas
-disponíveis.
-Você pode consultar os [Requisitos de sistema](/docs/supporting/requirements.md)
-para verificar se a configuração do seu computador é suportada.
+O VS Code é leve e deve funcionar na maioria das versões de hardware e
+plataformas disponíveis.
+Consulte os [requisitos de sistema](/docs/supporting/requirements.md) para
+verificar se a configuração do seu computador é compatível.
 
-## Configurando o VS Code para sua plataforma
+<div class="docs-action" data-show-in-doc="false" data-show-in-sidebar="true" title="Primeiros passos com IA">
+Siga um tutorial prático para criar seu primeiro aplicativo com IA no VS Code.
 
-1. Baixe e instale o Visual Studio Code para sua plataforma:
+- [Inicie o tutorial](/docs/copilot/getting-started.md)
 
-  * [macOS](/docs/setup/mac.md)
-  * [Linux](/docs/setup/linux.md)
-  * [Windows](/docs/setup/windows.md)
+</div>
 
-  > [!NOTE]
-  > O VS Code lança versões mensais e oferece suporte à
-  > [atualização automática](#frequência-de-atualizações) quando uma nova versão estiver
-  > disponível.
+## Configure o VS Code para sua plataforma
 
-2. [Instale componentes adicionais](/docs/setup/additional-components.md):
+Escolha o caminho de instalação que corresponde ao ambiente em que você deseja
+trabalhar.
 
-  Instale Git, Node.js, TypeScript, ambientes de execução de linguagem e muito
-  mais.
+<div class="card-grid">
+  <a class="card" href="/docs/setup/windows">
+    <i class="codicon codicon-device-desktop" aria-hidden="true"></i>
+    <p>Instale no Windows</p>
+  </a>
+  <a class="card" href="/docs/setup/mac">
+    <i class="codicon codicon-device-desktop" aria-hidden="true"></i>
+    <p>Instale no macOS</p>
+  </a>
+  <a class="card" href="/docs/setup/linux">
+    <i class="codicon codicon-terminal" aria-hidden="true"></i>
+    <p>Instale no Linux</p>
+  </a>
+  <a class="card" href="/docs/setup/vscode-web">
+    <i class="codicon codicon-globe" aria-hidden="true"></i>
+    <p>Use o VS Code para a Web</p>
+  </a>
+</div>
 
-3. [Instale extensões do VS Code a partir do Visual Studio Marketplace](https://marketplace.visualstudio.com/VSCode):
+> [!NOTE]
+>
+> O VS Code lança versões semanais.
+> A maioria das instalações para desktop oferece suporte à
+> [atualização automática](#frequência-de-atualizações) quando uma nova versão
+> está disponível.
 
-  Personalize o VS Code com temas, formatadores, extensões de linguagem e
-  depuradores para suas linguagens favoritas e muito mais.
+## Após a instalação
 
-4. [Habilite recursos de IA](/docs/copilot/setup.md):
+Após instalar o VS Code, conclua a configuração para seu fluxo de trabalho de
+desenvolvimento:
 
-  > [!TIP]
-  > Se você ainda não tem uma assinatura do Copilot, pode usá-lo gratuitamente
-  > inscrevendo-se no
-  > [Plano Copilot Gratuito](https://github.com/github-copilot/signup) e obter
-  > um limite mensal de preenchimento automático e interações de bate-papo.
+* [Instale componentes adicionais](/docs/setup/additional-components.md),
+  incluindo Git, Node.js, TypeScript, ambientes de execução de linguagem e
+  ferramentas de linha de comando.
+* [Instale extensões do Visual Studio Marketplace](https://marketplace.visualstudio.com/VSCode)
+  para adicionar temas, formatadores, depuradores e suporte a linguagens.
+* [Configure o GitHub Copilot](/docs/copilot/setup.md) para usar recursos de IA
+  no VS Code.
+* [Inicie o tutorial do VS Code](/docs/getstarted/getting-started.md) para um
+  tour prático pela interface da pessoa usuária e seus principais recursos.
 
-5. [Tutorial de introdução ao VS Code](/docs/getstarted/getting-started.md):
-
-  Descubra a interface da pessoa usuária e os principais recursos do VS Code.
+> [!TIP]
+>
+> Novas pessoas usuárias do Copilot podem começar com o
+> [plano gratuito do Copilot](https://github.com/github-copilot/signup), que
+> inclui um limite mensal de sugestões embutidas e interações no chat.
 
 ## Frequência de atualizações
 
-O VS Code lança uma nova versão [mensalmente](/updates) com novos recursos e
+O VS Code lança uma nova versão [semanalmente](/updates) com novos recursos e
 correções de falhas importantes.
-A maioria das plataformas oferece suporte à atualização automática e você
-receberá uma notificação para instalar a nova versão quando ela estiver
-disponível.
+A maioria das plataformas oferece suporte à atualização automática e solicita a
+instalação da nova versão quando ela estiver disponível.
 
-Você também pode verificar manualmente se há atualizações executando **Ajuda** >
-**Verificar se há Atualizações** no Linux e no Windows ou executando **Código**
-\> **Verificar se há atualizações** no macOS.
+Para verificar atualizações manualmente, execute **Help** > **Check for
+Updates** no Windows e Linux ou execute **Code** > **Check for Updates** no
+macOS.
 
 > [!NOTE]
-> Você pode
-> [desativar a atualização automática](/docs/supporting/faq.md#how-do-i-opt-out-of-vs-code-autoupdates)
+>
+> [Desative a atualização automática](/docs/supporting/faq.md#how-do-i-opt-out-of-vs-code-auto-updates)
 > se preferir atualizar o VS Code de acordo com sua própria programação.
 
 ## Versão noturna Insiders
 
-Se você quiser experimentar nossas versões noturnas para ver novos recursos
-antecipadamente ou verificar correções de falhas, você pode instalar nossa
-[versão Insiders](/insiders).
-A versão Insiders é instalada em paralelo com a versão estável mensal e você
-pode trabalhar livremente com qualquer uma delas na mesma máquina.
-A versão Insiders é a mesma que o time de desenvolvimento do VS Code usa
-diariamente e agradecemos muito se as pessoas experimentarem novos recursos e
-fornecerem feedback.
+Para experimentar as versões noturnas, visualizar novos recursos ou verificar
+correções de falhas, instale a versão [Insiders](/insiders).
+A versão Insiders é instalada em paralelo com a versão estável semanal.
+O time de desenvolvimento do VS Code usa a versão Insiders diariamente e
+agradece o feedback de quem experimenta novos recursos antecipadamente.
+
+Como as versões Insiders são lançadas diariamente, várias versões costumam
+compartilhar o mesmo número de versão do produto.
+Para identificar uma versão Insiders específica, use o ID do commit exibido na
+caixa de diálogo **About**, além do número da versão.
 
 ## Modo portátil
 
-O Visual Studio Code oferece suporte à instalação no
-[Modo portátil](https://en.wikipedia.org/wiki/Portable_application).
-Esse modo permite que todos os dados criados e mantidos pelo VS Code fiquem
-armazenados junto a ele, para que possam ser movidos entre ambientes, por
-exemplo, em um pen drive.
-Consulte a documentação do [Modo portátil do VS Code](/docs/editor/portable.md)
-para obter detalhes.
+O Visual Studio Code oferece suporte ao
+[modo portátil](https://en.wikipedia.org/wiki/Portable_application).
+O modo portátil armazena os dados do VS Code junto à aplicação, permitindo que a
+instalação seja movida entre ambientes, como em um pen drive.
+Consulte a documentação do [modo portátil do VS Code](/docs/editor/portable.md)
+para obter mais detalhes.
 
 ## Próximos passos
 
-Depois de instalar o VS Code, estes tópicos ajudarão você a aprender mais sobre
-ele:
+Estes tópicos ajudam você a aprender mais após a configuração:
 
-* [Tutorial do VS Code](/docs/getstarted/getting-started.md) - um guia rápido e
-  prático sobre os principais recursos do VS Code;
-* [Dicas e truques](/docs/getstarted/tips-and-tricks.md) - uma coleção de dicas
-  de produtividade para trabalhar com o VS Code;
-* [Codificação assistida por IA](/docs/copilot/overview.md) - saiba como usar o
-  GitHub Copilot no VS Code para escrever código mais rapidamente.
+* [Tutorial do VS Code](/docs/getstarted/getting-started.md) - Um breve tour
+  prático pelos principais recursos do VS Code.
+* [Dicas e Truques](/docs/getstarted/tips-and-tricks.md) - Uma coleção de dicas
+  de produtividade para trabalhar com o VS Code.
+* [Codificação assistida por IA](/docs/copilot/overview.md) - Saiba como o
+  GitHub Copilot no VS Code ajuda você a escrever código mais rapidamente.
 
 ## Perguntas frequentes
 
-### Quais são os requisitos de sistema para o VS Code?
+<details>
+<summary>Quais são os requisitos de sistema para o VS Code?</summary>
 
-Temos uma lista de [Requisitos de sistema](/docs/supporting/requirements.md).
+Consulte os [requisitos de sistema](/docs/supporting/requirements.md) para obter
+informações sobre plataformas e hardware compatíveis.
 
-### Qual o tamanho do VS Code?
+</details>
 
-O VS Code é um programa pequeno para baixar (menos de 200 MB) e ocupa menos de
-500 MB de espaço em disco, permitindo que você o instale e experimente
-rapidamente.
+<details>
+<summary>Qual o tamanho do VS Code?</summary>
 
-### Como criar e executar um novo projeto?
+O VS Code é um download pequeno, com menos de 200 MB, e ocupa menos de 500 MB de
+espaço em disco.
 
-O VS Code não inclui a tradicional caixa de diálogo **Arquivo** > **Novo
-Projeto** nem templates de projeto pré-instalados.
-Você precisará adicionar
-[componentes adicionais](/docs/setup/additional-components.md) e ferramentas de
-geração automática de código, dependendo dos seus interesses de desenvolvimento.
-Com ferramentas de geração automática de código como o
-[Yeoman](https://yeoman.io/) e a infinidade de módulos disponíveis no
-gerenciador de pacotes [npm](https://www.npmjs.com/), você certamente encontrará
-templates e ferramentas adequados para criar seus projetos.
+</details>
 
-### Como saber qual versão estou executando?
+<details>
+<summary>Como criar e executar um novo projeto?</summary>
 
-No Linux e no Windows, selecione **Ajuda** > **Sobre**.
-No macOS, acesse **Código** > **Sobre o Visual Studio Code**.
+O VS Code não inclui uma caixa de diálogo tradicional **File** > **New Project**
+nem modelos de projeto pré-instalados.
+Adicione [componentes adicionais](/docs/setup/additional-components.md) e
+ferramentas de scaffolding com base no seu fluxo de trabalho de desenvolvimento.
+Ferramentas de scaffolding como o [Yeoman](https://yeoman.io/) e pacotes do
+gerenciador de pacotes [npm](https://www.npmjs.com/) fornecem modelos e
+ferramentas para criar projetos.
 
-### Por que o VS Code está dizendo que minha instalação não é compatível?
+</details>
+
+<details>
+<summary>Como saber qual versão estou executando?</summary>
+
+No Linux e no Windows, escolha **Help** > **About**.
+No macOS, use **Code** > **About Visual Studio Code**.
+A caixa de diálogo **About** mostra o número da versão e o ID do commit.
+Para builds Insiders, várias builds podem compartilhar o mesmo número de versão;
+portanto, use o ID do commit para identificar sua build de forma exclusiva.
+
+</details>
+
+<details>
+<summary>Por que o VS Code está dizendo que minha instalação não é compatível?</summary>
 
 O VS Code detectou que alguns arquivos de instalação foram modificados,
 possivelmente por uma extensão.
@@ -156,17 +193,22 @@ Consulte nosso
 [tópico de perguntas frequentes](/docs/supporting/faq.md#installation-appears-to-be-corrupt-unsupported)
 para obter mais detalhes.
 
-### Como posso fazer uma desinstalação completa do VS Code?
+</details>
 
-Se você quiser remover todos os dados do usuário após
-[desinstalar](/docs/setup/uninstall.md) o VS Code, você pode excluir as pastas
-de dados do usuário `Code` e `.vscode`.
-Isso restaura o sistema ao estado anterior à instalação do VS Code.
-Essa opção também pode ser usada para redefinir todas as configurações, caso
-você não queira desinstalar o VS Code.
+<details>
+<summary>Como posso fazer uma desinstalação completa do VS Code?</summary>
 
-A localização das pastas varia de acordo com a plataforma:
+Para remover todos os dados do usuário após
+[desinstalar](/docs/setup/uninstall.md) o VS Code, exclua as pastas de dados do
+usuário `Code` e `.vscode`.
+Isso restaura o VS Code ao estado anterior à instalação e pode redefinir todas
+as configurações sem desinstalar o VS Code.
+A localização das pastas varia conforme a sua plataforma:
 
-* **Windows** - exclua `%APPDATA%\Code` e `%USERPROFILE%\.vscode`;
-* **macOS** - exclua `$HOME/Library/Application Support/Code` e `~/.vscode`;
-* **Linux** - exclua `$HOME/.config/Code` e `~/.vscode`.
+* **Windows** - Exclua `%APPDATA%\Code` e `%USERPROFILE%\.vscode`.
+
+* **macOS** - Exclua `$HOME/Library/Application Support/Code` e `~/.vscode`.
+
+* **Linux** - Exclua `$HOME/.config/Code` e `~/.vscode`.
+
+</details>
