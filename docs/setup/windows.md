@@ -11,7 +11,7 @@
 # https://github.com/docsdevbr/vscode-website-pt-br/blob/-/LICENSES/CC-BY-3.0-US.txt
 
 source_url: https://github.com/microsoft/vscode-docs/blob/main/docs/setup/windows.md
-source_revision: 002f098cbbea65f2bed2e8cb84ce1decedaba851
+source_revision: d3018c18846c29b1a635bbf6f37f30264a66859e
 translation_status: ready
 
 ContentId: 4670C281-5761-46E6-8C46-10D523946FFB
