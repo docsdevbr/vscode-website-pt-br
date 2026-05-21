@@ -15,7 +15,7 @@ source_revision: 002f098cbbea65f2bed2e8cb84ce1decedaba851
 translation_status: ready
 
 ContentId: 4670C281-5761-46E6-8C46-10D523946FFB
-DateApproved: 5/13/2026
+DateApproved: 5/20/2026
 MetaDescription: >-
   Instale o Visual Studio Code no Windows, escolha a instalação de usuário ou
   sistema e configure as ferramentas de desenvolvedor do Windows.
