@@ -11,11 +11,11 @@
 # https://github.com/docsdevbr/vscode-website-pt-br/blob/-/LICENSES/CC-BY-3.0-US.txt
 
 source_url: https://github.com/microsoft/vscode-docs/blob/main/docs/setup/setup-overview.md
-source_revision: 38307c037e45ef51640f3f2c040e05e629a347a5
+source_revision: d3018c18846c29b1a635bbf6f37f30264a66859e
 translation_status: ready
 
 ContentId: FC5262F3-D91D-4665-A5D2-BCBCCF66E53A
-DateApproved: 5/13/2026
+DateApproved: 5/20/2026
 MetaDescription: >-
   Instale o Visual Studio Code no Windows, macOS ou Linux e escolha as opções de
   configuração adequadas ao seu fluxo de trabalho.
@@ -36,7 +36,7 @@ verificar se a configuração do seu computador é compatível.
 <div class="docs-action" data-show-in-doc="false" data-show-in-sidebar="true" title="Primeiros passos com IA">
 Siga um tutorial prático para criar seu primeiro aplicativo com IA no VS Code.
 
-- [Inicie o tutorial](/docs/copilot/getting-started.md)
+* [Inicie o tutorial](/docs/copilot/getting-started.md)
 
 </div>
 
@@ -206,9 +206,7 @@ as configurações sem desinstalar o VS Code.
 A localização das pastas varia conforme a sua plataforma:
 
 * **Windows** - Exclua `%APPDATA%\Code` e `%USERPROFILE%\.vscode`.
-
 * **macOS** - Exclua `$HOME/Library/Application Support/Code` e `~/.vscode`.
-
 * **Linux** - Exclua `$HOME/.config/Code` e `~/.vscode`.
 
 </details>
