@@ -11,8 +11,8 @@
 # https://github.com/docsdevbr/vscode-website-pt-br/blob/-/LICENSES/CC-BY-3.0-US.txt
 
 source_url: https://github.com/microsoft/vscode-docs/blob/main/docs/setup/setup-overview.md
-revision: 38307c037e45ef51640f3f2c040e05e629a347a5
-status: ready
+source_revision: 38307c037e45ef51640f3f2c040e05e629a347a5
+translation_status: ready
 
 ContentId: FC5262F3-D91D-4665-A5D2-BCBCCF66E53A
 DateApproved: 5/13/2026

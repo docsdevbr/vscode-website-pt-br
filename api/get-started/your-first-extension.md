@@ -11,8 +11,8 @@
 # https://github.com/docsdevbr/vscode-website-pt-br/blob/-/LICENSES/CC-BY-3.0-US.txt
 
 source_url: https://github.com/microsoft/vscode-docs/blob/main/api/get-started/your-first-extension.md
-revision: 9ac43da9f748caec99e0cfdf9bbcd3efdc57353a
-status: wip
+source_revision: 9ac43da9f748caec99e0cfdf9bbcd3efdc57353a
+translation_status: wip
 
 # DO NOT TOUCH — Managed by doc writer
 ContentId: DC915D6C-13D4-4022-9101-57C4A4118B07

@@ -11,8 +11,8 @@
 # https://github.com/docsdevbr/vscode-website-pt-br/blob/-/LICENSES/CC-BY-3.0-US.txt
 
 source_url: https://github.com/microsoft/vscode-docs/blob/main/api/index.md
-revision: 9ac43da9f748caec99e0cfdf9bbcd3efdc57353a
-status: ready
+source_revision: 9ac43da9f748caec99e0cfdf9bbcd3efdc57353a
+translation_status: ready
 
 # DO NOT TOUCH — Managed by doc writer
 ContentId: AD26EFB1-FFC6-4284-BAB8-F3BCB8294728
