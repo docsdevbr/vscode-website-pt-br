@@ -90,7 +90,7 @@ desenvolvimento:
 >
 > Novas pessoas usuárias do Copilot podem começar com o
 > [plano gratuito do Copilot](https://github.com/github-copilot/signup), que
-> inclui um limite mensal de sugestões embutidas e interações no chat.
+> inclui um limite mensal de preenchimento automático e interações no chat.
 
 ## Frequência de atualizações
 
