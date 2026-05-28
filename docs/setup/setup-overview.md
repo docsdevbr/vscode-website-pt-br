@@ -34,7 +34,7 @@ Consulte os [requisitos de sistema](/docs/supporting/requirements.md) para
 verificar se a configuração do seu computador é compatível.
 
 <div class="docs-action" data-show-in-doc="false" data-show-in-sidebar="true" title="Primeiros passos com IA">
-Siga um tutorial prático para criar seu primeiro aplicativo com IA no VS Code.
+Siga um tutorial prático para criar sua primeira aplicação com IA no VS Code.
 
 * [Inicie o tutorial](/docs/copilot/getting-started.md)
 
@@ -90,7 +90,7 @@ desenvolvimento:
 >
 > Novas pessoas usuárias do Copilot podem começar com o
 > [plano gratuito do Copilot](https://github.com/github-copilot/signup), que
-> inclui um limite mensal de preenchimento automático e interações no chat.
+> inclui um limite mensal de sugestões de preenchimento e interações no chat.
 
 ## Frequência de atualizações
 

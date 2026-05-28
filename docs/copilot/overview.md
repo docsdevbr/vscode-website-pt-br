@@ -10,248 +10,319 @@
 # The original work was translated from English into Brazilian Portuguese.
 # https://github.com/docsdevbr/vscode-website-pt-br/blob/-/LICENSES/CC-BY-3.0-US.txt
 
+source_url: https://github.com/microsoft/vscode-docs/blob/main/docs/copilot/overview.md
+source_revision: b9731d7cf3dc3b478e3870682da6e96b034d7393
+translation_status: ready
+
 ContentId: 0aefcb70-7884-487f-953e-46c3e07f7cbe
-DateApproved: 11/12/2025
-MetaDescription: Copilot is your AI pair programmer tool in Visual Studio Code. Get code suggestions as you type in the editor, or use natural language chat to ask about your code or start an editing session for implementing new feature and fixing bugs.
+DateApproved: 5/28/2026
+MetaDescription: >-
+  Descreva o que você deseja construir e permita que agentes no VS Code
+  planejem, implementem e verifiquem as alterações em todo o seu projeto.
 MetaSocialImage: images/shared/github-copilot-social.png
+Keywords:
+  - GitHub Copilot
+  - AI
+  - agentes
+  - autônomo
+  - agêntico
+  - edição de múltiplos arquivos
+  - arquitetura
+  - refatoração
+  - busca semântica
+  - compreensão do código-fonte
+  - corporativo
+  - sugestões em linha
+  - chat
+  - MCP
+  - time
+  - visão geral
+  - primeiros passos
 ---
-# GitHub Copilot in VS Code
 
-GitHub Copilot is an AI-powered coding assistant integrated into Visual Studio Code. It provides code suggestions, explanations, and automated implementations based on natural language prompts and existing code context. Copilot has been trained on public code repositories and can assist with most programming languages and frameworks.
+# GitHub Copilot no VS Code
 
-<video src="images/overview/agent-mode-blog-video.mp4" title="Agent mode hero video" autoplay loop controls muted></video>
+O GitHub Copilot traz agentes de IA para o Visual Studio Code.
+Descreva o que você deseja criar e um agente planeja a abordagem, escreve o
+código e verifica o resultado em todo o seu projeto.
+Escolha entre os agentes integrados do Copilot, agentes de terceiros de
+fornecedores como Anthropic e OpenAI ou seus próprios agentes personalizados e
+execute-os localmente, em segundo plano ou na nuvem.
+Para alterações mais específicas, sugestões em linha e bate-papo oferecem
+controle preciso diretamente no editor.
 
-## Core capabilities
-
-### Inline suggestions
-
-Copilot provides inline code suggestions as you type, ranging from single line completions to entire function implementations. With next edit suggestions, it predicts the next logical code change based on your current context.
-
-<video src="images/inline-suggestions/nes-video.mp4" title="Copilot NES video" autoplay loop controls muted poster="./images/inline-suggestions/point3d.png"></video>
-
-**Examples:**
-
-- Type `function calculateTax(` to get a complete tax calculation implementation
-- Write `// Create a REST API endpoint for user authentication` to generate Express.js route code
-- Begin a React component with `const UserProfile = ({` to receive a complete functional component with TypeScript types
-
-Learn more about [inline suggestions in VS Code](/docs/copilot/ai-powered-suggestions.md).
-
-### Autonomous coding
-
-Agents can autonomously plan and execute complex development tasks, coordinating multi-step workflows that involve running terminal commands or invoking specialized tools. It can transform high-level requirements into working code.
-
-Install Model Context Protocol (MCP) servers or tools from Marketplace extensions to further enhance the capabilities of the autonomous coding experience. For example, pull information from a database or connect to external APIs.
-
-<video src="images/overview/agent-mode-short.mp4" title="Agent mode video" autoplay loop controls muted></video>
-
-**Example tasks:**
-
-- Implement authentication using OAuth
-- Migrate the codebase to a new framework or language
-- Debug failing tests and apply fixes
-- Optimize performance across the application
-
-Learn more about [autonomous coding with agents](/docs/copilot/chat/copilot-chat.md) and [configuring MCP servers in VS Code](/docs/copilot/customization/mcp-servers.md).
-
-### Natural language chat
-
-Use natural language to interact with your codebase through chat interfaces. Ask questions, request explanations, or specify code changes using conversational prompts.
-
-Apply changes across multiple files in your project using single prompts. Copilot analyzes your project structure and makes coordinated modifications.
-
-**Common queries:**
-
-- "How does authentication work in this project?"
-- "What's causing the memory leak in the data processing function?"
-- "Add error handling to the payment processing service"
-- "Add a login form and backend API"
-
-![Screenshot of the Chat view, showing the response to asking how to add a login page to a web app.](images/overview/copilot-chat-view-add-page.png)
-
-Learn more about [using chat in VS Code](/docs/copilot/chat/copilot-chat.md).
-
-### Smart actions
-
-VS Code has many predefined actions for common development tasks that are enhanced with AI capabilities and integrated into the editor.
-
-From helping you write commit messages or pull requests descriptions, renaming code symbols, fixing errors in the editor, to semantic search that helps you find relevant files.
-
-![Screenshot of the Smart Actions menu in VS Code](images/overview/copilot-chat-fix-test-failure.png)
-
-Learn more about the [smart actions in VS Code](/docs/copilot/copilot-smart-actions.md).
-
-## Getting started
-
-### Step 1: Set up Copilot
-
-1. Hover over the Copilot icon in the Status Bar and select **Set up Copilot**.
-
-    ![Hover over the Copilot icon in the Status Bar and select Set up Copilot.](images/setup/setup-copilot-status-bar.png)
-
-1. Choose a sign-in method and follow the prompts. If you don't have a Copilot subscription yet, you'll be signed up for the [Copilot Free plan](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-copilot-free/about-github-copilot-free).
-
-### Step 2: Basic inline suggestions
-
-1. Create a new file and start typing. VS Code shows inline suggestions in _ghost text_ in the editor.
-
-    For example, create a new JavaScript file and start typing a function definition:
-
-    ```javascript
-    // Try typing this in a new .js file:
-    function factorial(
-    ```
-
-1. Accept the inline suggestions with the `kbstyle(Tab)` key.
-
-### Step 3: Autonomous coding
-
-To perform more complex tasks in an autonomous manner, use agents in the chat interface. The AI will iterate on the code until the task is complete.
-
-1. Open the Chat view (`kb(workbench.action.chat.open)`)
-1. Select **Agent** from the agent picker
-1. Ask to generate a basic web app like: "Create a basic node.js web app for sharing recipes. Make it look modern and responsive."
-
-Notice how the agent independently generates code across multiple files and installs dependencies as needed for the task.
-
-### Step 4: Inline chat
-
-To get help with generating, refactoring, or explaining code directly in the editor, you can use editor inline chat. Enter a prompt and the AI will suggest code changes in the current file, keeping you in the flow of coding.
-
-1. Select some code in your editor
-1. Press `kb(inlinechat.start)` to open editor inline chat
-1. Ask to explain or make a modification like: "Refactor this code to ..."
-1. Review and accept the suggested changes
-
-## Usage scenarios
-
-### Code analysis and review
-
-Understanding existing codebases and identifying issues:
-
-- "Explain the authentication flow in this application"
-- "What are the potential security issues in this payment handler?"
-- "Document this API endpoint with proper JSDoc comments"
-
-### Debugging and troubleshooting
-
-Identifying and resolving code issues:
-
-- "Why is this component re-rendering unnecessarily?"
-- "Find and fix the memory leak in this data processing pipeline"
-- "Optimize this database query for better performance"
-
-Learn more about using [AI for debugging](/docs/copilot/guides/debug-with-copilot.md).
-
-### Feature implementation
-
-Building new functionality:
-
-- "Create a user registration system with email verification"
-- "Add real-time notifications using WebSockets"
-- "Implement a shopping cart with local storage persistence"
-
-### Testing and quality assurance
-
-Generating tests and ensuring code quality:
-
-- "Generate comprehensive unit tests for this service class"
-- "Create integration tests for the API endpoints"
-- "Add property-based tests for this data validation function"
-
-Learn more about using [AI for testing](/docs/copilot/guides/test-with-copilot.md).
-
-### Learning and documentation
-
-Understanding new technologies and patterns:
-
-- "Show me the differences between async/await and Promises"
-- "How would you implement this pattern in Go instead of Python?"
-- "What are the best practices for error handling in React?"
-
-## Customize the AI to your workflow
-
-### Custom instructions
-
-Use custom instructions to define project-specific coding conventions and patterns, and the AI will generate code that matches your style. Automatically apply these instructions to all chat requests or only for specific file types.
-
-```markdown
----
-# SPDX-FileCopyrightText: Microsoft Corporation.
-# Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks of
-# Microsoft Corporation.
-# All rights reserved.
-#
-# SPDX-License-Identifier: CC-BY-3.0-US
-# Documentation licensed under the Creative Commons Attribution 3.0 United
-# States License.
-# The original work was translated from English into Brazilian Portuguese.
-# https://github.com/docsdevbr/vscode-website-pt-br/blob/-/LICENSES/CC-BY-3.0-US.txt
-
-applyTo: "**"
----
-# My Coding Style
-- Use arrow functions for components
-- Prefer const over let
-- Always include TypeScript types
-- Use descriptive variable names
-- Follow the Repository pattern for data access
-```
-
-Learn more about [using custom instructions](/docs/copilot/customization/custom-instructions.md) to tailor the AI to your coding style.
-
-### Language models
-
-Quickly switch between different AI models to optimize for speed, reasoning, or specialized tasks. Choose from various built-in models or connect to external providers and bring your own API keys.
-
-![Screenshot that shows the model picker in the Chat view.](images/language-models/model-dropdown-change-model.png)
-
-Learn more about using [language models in VS Code](/docs/copilot/customization/language-models.md).
-
-### Custom agents
-
-The chat experience in VS Code can use different agents to switch between asking questions, making edits, or running autonomous coding sessions. You can also create custom agents that fit your workflow. For example, create a custom agent that focuses on planning and architecture discussions. Specify which tools the agent is allowed to use, and provide custom instructions to provide the right context in which it should operate.
-
-![Screenshot showing the Chat view, highlighting the agent picker.](images/overview/chat-mode-dropdown.png)
-
-Learn more about [creating your own custom agents](/docs/copilot/customization/custom-agents.md).
-
-### Extend chat with tools
-
-Extend the capabilities of the chat experience with specialized tools from MCP servers or Marketplace extensions. For example, add tools for querying databases, connecting to external APIs, or performing specialized tasks.
-
-![MCP tools list](images/mcp-servers/agent-mode-select-tools.png)
-
-Learn more about [using MCP servers and tools](/docs/copilot/customization/mcp-servers.md).
-
-## Best Practices
-
-- Choose the right tool for the task. Get inline suggestions while you're coding, use chat for natural language queries, and pick the agent that fits your workflow.
-
-- Write effective prompts to get the best results. Be specific, provide the right context, and iterate often.
-
-- Customize the AI to your coding style and project conventions by using custom instructions, prompt files, or custom agents.
-- Extend the AI's capabilities with tools from MCP servers or Marketplace extensions.
-
-- Choose a language model that is optimized for your task. Use fast models for quick code suggestions, reasoning models for more complex requests.
-
-Get more [tips and tricks for using AI in VS Code](/docs/copilot/copilot-tips-and-tricks.md).
-
-## Support
-
-Support for GitHub Copilot Chat is provided by GitHub and can be reached at <https://support.github.com>.
-
-To learn more about Copilot's security, privacy, compliance, and transparency, see the [GitHub Copilot Trust Center FAQ](https://copilot.github.trust.page/faq).
-
-## Pricing
-
-You can start using GitHub Copilot for free with monthly limits on inline suggestions and chat interactions. For more extensive usage, you can choose from various paid plans.
-
-[View detailed GitHub Copilot pricing](https://docs.github.com/en/copilot/get-started/plans)
-
-## Next steps
-
-- [Set up Copilot in VS Code](/docs/copilot/setup.md)
-- [Get started with hands-on examples](/docs/copilot/getting-started.md)
-- [Customize the AI for your workflow](/docs/copilot/customization/overview.md)
-- [Learn about security considerations of using AI in VS Code](/docs/copilot/security.md)
+<div class="docs-action" data-show-in-doc="false" data-show-in-sidebar="true" title="Comece a usar IA">
+Siga um tutorial prático para criar sua primeira aplicação com IA no VS Code.
+
+* [Inicie o tutorial](/docs/copilot/getting-started.md)
+
+</div>
+
+## Agentes
+
+Um agente é um assistente de IA que trabalha de forma autônoma para concluir uma
+tarefa de programação.
+Ao contrário da complementação de código tradicional, que sugere as próximas
+linhas, um agente recebe um objetivo, divide-o em etapas, edita arquivos em todo
+o seu projeto, executa comandos e se autocorrige quando algo dá errado.
+
+Forneça ao agente uma descrição geral do que você deseja construir e ele
+começará a trabalhar.
+Cada tarefa é executada em uma **sessão de agente**, uma conversa persistente
+que você pode acompanhar, pausar, retomar ou transferir para outro agente.
+
+<video src="images/overview/agents-intro.mp4" title="Vídeo mostrando uma sessão de agente construindo um recurso completo no VS Code." controls muted></video>
+
+O VS Code permite que você trabalhe com agentes da maneira que melhor se adapta
+ao seu fluxo de trabalho, com duas interfaces que você pode escolher e alternar
+livremente:
+
+* **Janela Editor**: permaneça na janela principal do VS Code quando estiver
+  escrevendo código e quiser que a IA auxilie com o editor, o depurador e as
+  extensões.
+* **[Janela Agents](/docs/copilot/agents/agents-window.md) (Preview)**: alterne
+  para uma interface focada em agentes quando quiser pensar em prompts e
+  orquestrar sessões de agentes em vários projetos.
+
+> [!IMPORTANT]
+>
+> Sua organização pode ter desativado os agentes no VS Code.
+> Entre em contato com a pessoa administradora para ativar essa funcionalidade.
+
+### Planeje antes de construir
+
+Use o agente **Plan** integrado para dividir uma tarefa em um plano de
+implementação estruturado antes de escrever qualquer código.
+O agente Plan analisa sua base de código, faz perguntas para esclarecer dúvidas
+e gera um plano passo a passo.
+Quando o plano estiver correto, entregue-o a um agente de implementação para
+executá-lo localmente, em segundo plano ou na nuvem.
+
+<video src="images/overview/plan-intro.mp4" title="Vídeo mostrando o agente Plan criando um plano de implementação estruturado para adicionar autenticação à aplicação." controls muted></video>
+
+Saiba mais sobre [planejamento com agentes](/docs/copilot/agents/planning.md).
+
+### Execute agentes em qualquer lugar
+
+Os agentes são executados onde o trabalho precisa ser feito.
+Execute-os localmente no VS Code para trabalho interativo, em segundo plano para
+tarefas autônomas ou na nuvem para colaboração em equipe por meio de pull
+requests.
+Você também pode usar agentes de terceiros de provedores como Anthropic e
+OpenAI.
+A qualquer momento, transfira uma tarefa de um tipo de agente para outro e o
+contexto relevante será mantido.
+
+![Captura de tela mostrando o seletor de tipo de sessão na visualização Chat com opções para agentes locais, em segundo plano, na nuvem e de terceiros.](images/agents-overview/sessions-type-picker.png)
+
+Saiba mais sobre
+[tipos de agentes e delegação](/docs/copilot/agents/overview.md)
+ou siga o [tutorial de agentes](/docs/copilot/agents/agents-tutorial.md).
+
+### Gerencie sessões a partir de uma visão centralizada
+
+Execute várias sessões de agentes em paralelo, cada uma focada em uma tarefa
+diferente.
+A visualização **Sessions** no painel **Chat** oferece um local centralizado
+para monitorar todas as sessões ativas, sejam elas executadas localmente, em
+segundo plano ou na nuvem.
+Veja o status de cada sessão, alterne entre elas, revise as alterações nos
+arquivos e retome de onde parou.
+
+<video src="images/overview/agent-sessions-demo.mp4" title="Vídeo mostrando a lista de sessões de agentes, demonstrando como filtrar, exibir e arquivar sessões." controls muted></video>
+
+Saiba mais sobre
+[gerenciamento de sessões de agentes](/docs/copilot/chat/chat-sessions.md).
+
+### Janela Agents (Preview)
+
+O VS Code permite que você trabalhe com agentes da maneira que melhor se adapta
+ao seu fluxo de trabalho, com duas áreas principais que você pode escolher e
+alternar livremente:
+
+* **Janela Editor**: permaneça na janela principal do VS Code quando estiver
+  escrevendo código e quiser que a IA auxilie com o editor, o depurador e as
+  extensões.
+* **[Janela Agents](/docs/copilot/agents/agents-window.md) (Preview)**: alterne
+  para uma área focada em agentes quando quiser pensar em prompts e orquestrar
+  sessões de agentes em vários projetos, com um painel Changes para revisar
+  edições e acesso direto às suas personalizações de IA (agentes, habilidades,
+  instruções, hooks, servidores MCP) a partir de um único painel lateral.
+
+Ambas as áreas compartilham sessões de agentes e configurações do VS Code (como
+configurações e atalhos de teclado), tornando as transições suaves.
+Abra a Janela Agents com o botão **Open in Agents** na barra de título.
+Você também pode conectar a janela Agentes a uma máquina remota via SSH ou um
+túnel de desenvolvimento e
+[monitorar sessões a partir de um navegador](https://insiders.vscode.dev/agents)
+em qualquer dispositivo.
+Saiba mais sobre
+[sessões remotas de agentes](/docs/copilot/concepts/agents.md#remote-agent-sessions).
+
+Saiba mais sobre a [janela Agents](/docs/copilot/agents/agents-window.md).
+
+## O que você pode construir
+
+Os agentes lidam com tarefas de codificação de ponta a ponta, desde uma única
+alteração em um arquivo até um recurso completo enviado como um pull request.
+
+* **Construa um recurso de ponta a ponta.**
+  Descreva um recurso em linguagem natural e o agente criará a estrutura do
+  projeto, implementará a lógica em vários arquivos e executará testes para
+  verificar o resultado.
+* **Depure e corrija testes com falha.**
+  Aponte um agente para um teste com falha e ele lerá o erro, rastreará a causa
+  raiz em sua base de código, aplicará uma correção e executará o teste
+  novamente para confirmar.
+  Saiba mais sobre
+  [depuração com IA](/docs/copilot/guides/debug-with-copilot.md).
+* **Refatore ou migre uma base de código.**
+  Peça a um agente para planejar uma migração, por exemplo, de um framework para
+  outro, e ele aplicará alterações coordenadas em todos os arquivos, verificando
+  com builds.
+* **Teste e interaja com aplicações web.**
+  _(Experimental)_ Peça a um agente para abrir sua aplicação web no
+  [navegador integrado](/docs/debugtest/integrated-browser.md), verificar se um
+  recurso funciona, verificar problemas de layout ou tirar capturas de tela.
+  Siga o
+  [guia de teste do agente do navegador](/docs/copilot/guides/browser-agent-testing-guide.md).
+* **Colabore por meio de pull requests.**
+  Delegue uma tarefa a um agente na nuvem que cria um branch, implementa as
+  alterações e abre um pull request para seu time revisar.
+  Saiba mais sobre [agentes na nuvem](/docs/copilot/agents/cloud-agents.md).
+
+## Primeiros passos
+
+### Passo 1: configure o Copilot
+
+1. Passe o cursor sobre o ícone do Copilot na Barra de Status e selecione
+   **Set up Copilot**.
+
+   ![Captura de tela mostrando o ícone do Copilot na Barra de Status com a opção Set up Copilot.](images/setup/setup-copilot-status-bar.png)
+
+1. Escolha um método de login e siga as instruções.
+   Se você ainda não possui uma assinatura do Copilot, você está inscrito no
+   [plano gratuito do Copilot](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-copilot-free/about-github-copilot-free).
+
+### Passo 2: inicie sua primeira sessão com o agente
+
+1. Abra a visualização **Chat** (`kb(workbench.action.chat.open)`).
+
+1. Insira um prompt que descreva o que você deseja criar, por exemplo:
+
+   ```prompt-agent
+   Create a basic Node.js web app for sharing recipes. Make it look modern and responsive.
+   ```
+
+1. Revise o código gerado.
+   O agente cria arquivos, instala dependências e executa comandos conforme
+   necessário.
+
+1. Digite `/init` para configurar seu projeto para IA.
+   Isso cria
+   [instruções personalizadas](/docs/copilot/customization/custom-instructions.md)
+   que ajudam o agente a entender sua base de código e gerar um código melhor.
+
+Para um tutorial prático completo que aborda sugestões de preenchimento em
+linha, agentes, chat em linha e personalização, consulte
+[Primeiros passos com o GitHub Copilot no VS Code](/docs/copilot/getting-started.md).
+
+## Assistência de IA enquanto você digita
+
+Para alterações menores ou quando você deseja um controle mais preciso, o
+Copilot auxilia diretamente no editor.
+
+### Sugestões em linha
+
+O Copilot fornece sugestões de código enquanto você digita, desde o
+preenchimento de uma única linha até a implementação completa de funções.
+As sugestões de próxima edição preveem a próxima alteração lógica com base nas
+suas edições atuais.
+
+<video src="images/inline-suggestions/nes-video.mp4" title="Vídeo mostrando sugestões de código em linha aparecendo como texto fantasma no editor." controls muted poster="./images/inline-suggestions/point3d.png"></video>
+
+Saiba mais sobre
+[sugestões em linha no VS Code](/docs/copilot/ai-powered-suggestions.md).
+
+### Chat em linha
+
+Pressione `kb(inlinechat.start)` para abrir um prompt de chat diretamente no
+editor.
+Descreva uma alteração e o Copilot sugerirá edições no local, para que você
+mantenha o fluxo de codificação.
+Use-o para refatorações direcionadas, explicações ou correções rápidas sem
+precisar trocar de contexto.
+
+Saiba mais sobre [chat em linha no VS Code](/docs/copilot/chat/inline-chat.md).
+
+### Ações inteligentes
+
+O VS Code inclui ações predefinidas com IA para tarefas comuns: gerar mensagens
+de commit, renomear símbolos, corrigir erros e executar buscas semânticas em
+todo o seu projeto.
+
+![Captura de tela mostrando o menu de ações inteligentes no VS Code com opções para corrigir uma falha de teste.](images/overview/copilot-chat-fix-test-failure.png)
+
+Saiba mais sobre
+[ações inteligentes no VS Code](/docs/copilot/copilot-smart-actions.md).
+
+## Personalize a IA para o seu fluxo de trabalho
+
+Os agentes funcionam melhor quando entendem as convenções do seu projeto, têm as
+ferramentas certas e usam um modelo adequado à tarefa.
+O VS Code oferece diversas maneiras de
+[adaptar a IA](/docs/copilot/customization/overview.md) para ela gerar código
+adequado à sua base de código desde o início, em vez de exigir correções manuais
+posteriormente.
+
+* **[Instruções personalizadas](/docs/copilot/customization/custom-instructions.md):
+  defina convenções de codificação para todo o projeto, para que a IA gere
+  código que corresponda ao seu estilo.
+* **[Skills do agente](/docs/copilot/customization/agent-skills.md): ensine ao
+  Copilot recursos especializados que funcionam no VS Code, na CLI do GitHub
+  Copilot e no agente em nuvem do GitHub Copilot.
+* **[Agentes personalizados](/docs/copilot/customization/custom-agents.md): crie
+  agentes que assumam uma função específica, como revisor de código ou redator
+  de documentação, com suas próprias ferramentas e instruções.
+* * **[Servidores MCP](/docs/copilot/customization/mcp-servers.md)**: estenda os
+  agentes com ferramentas dos servidores MCP ou extensões do Marketplace.
+* **[Hooks](/docs/copilot/customization/hooks.md)**: execute comandos
+  personalizados em eventos específicos para automação e aplicação de políticas.
+
+<div class="docs-action" data-show-in-doc="false" data-show-in-sidebar="true" title="Personalize a IA">
+Explore todas as maneiras de adaptar a experiência de IA ao seu fluxo de
+trabalho.
+
+* [Acesse a visão geral da personalização](/docs/copilot/customization/overview.md)
+
+</div>
+
+## Suporte
+
+O suporte para o GitHub Copilot Chat é fornecido pelo GitHub e pode ser acessado
+em <https://support.github.com>.
+
+Para saber mais sobre a segurança, privacidade, conformidade e transparência do
+Copilot, consulte as
+[Perguntas frequentes da Central de Confiabilidade do GitHub Copilot](https://copilot.github.trust.page/faq).
+
+## Preços
+
+> [!IMPORTANT]
+> **A partir de 20 de abril de 2026**, novas inscrições para o Copilot Pro,
+> Copilot Pro+ e planos para estudantes serão temporariamente suspensas.
+> Além disso, estamos restringindo os limites de uso semanais.
+> Consulte os
+> [Limites de uso do GitHub Copilot](https://docs.github.com/copilot/concepts/usage-limits).
+
+Você pode começar a usar o GitHub Copilot gratuitamente com limites mensais para
+sugestões em linha e interações no chat.
+Para um uso mais extenso, você pode escolher entre vários planos pagos.
+
+[Veja os preços detalhados do GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans).
+
+## Próximos passos
+
+* [Início rápido: comece a usar o GitHub Copilot no VS Code](/docs/copilot/getting-started.md).
+* [Tutorial: comece a usar agentes no VS Code](/docs/copilot/agents/agents-tutorial.md).
+* [Personalize a IA para o seu fluxo de trabalho](/docs/copilot/customization/overview.md).

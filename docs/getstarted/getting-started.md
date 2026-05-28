@@ -64,7 +64,7 @@ introdução.
 > Se você ainda não tem uma assinatura do Copilot, pode usá-lo gratuitamente
 > inscrevendo-se no
 > [Plano Copilot Gratuito](https://github.com/github-copilot/signup) e obter um
-> limite mensal de preenchimento automático e interações no chat.
+> limite mensal de sugestões de preenchimento e interações no chat.
 
 ## Abra uma pasta no VS Code
 
@@ -284,7 +284,7 @@ um único prompt.
    > faça login na sua conta do GitHub e configure o Copilot antes de enviar a
    > mensagem.
    > Se você não tiver uma assinatura do Copilot, estará associado a uma conta
-   > gratuita que oferece um limite mensal de preenchimento automático e
+   > gratuita que oferece um limite mensal de sugestões de preenchimento e
    > interações no chat.
 
 1. Pressione `kbstyle(Enter)` para enviar a mensagem.
