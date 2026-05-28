@@ -11,12 +11,12 @@
 # https://github.com/docsdevbr/vscode-website-pt-br/blob/-/LICENSES/CC-BY-3.0-US.txt
 
 source_url: https://github.com/microsoft/vscode-docs/blob/main/api/index.md
-source_revision: d3018c18846c29b1a635bbf6f37f30264a66859e
+source_revision: b9731d7cf3dc3b478e3870682da6e96b034d7393
 translation_status: ready
 
 # DO NOT TOUCH — Managed by doc writer
 ContentId: AD26EFB1-FFC6-4284-BAB8-F3BCB8294728
-DateApproved: 5/20/2026
+DateApproved: 5/28/2026
 
 # Summarize the whole topic in less than 300 characters for SEO purpose
 MetaDescription: >-

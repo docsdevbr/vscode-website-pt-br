@@ -11,11 +11,11 @@
 # https://github.com/docsdevbr/vscode-website-pt-br/blob/-/LICENSES/CC-BY-3.0-US.txt
 
 source_url: https://github.com/microsoft/vscode-docs/blob/main/docs/getstarted/getting-started.md
-source_revision: d3018c18846c29b1a635bbf6f37f30264a66859e
+source_revision: b9731d7cf3dc3b478e3870682da6e96b034d7393
 translation_status: ready
 
 ContentId: 72ad9b70-5227-4032-81d7-6aec00a1e8f8
-DateApproved: 5/20/2026
+DateApproved: 5/28/2026
 MetaDescription: >-
   Este tutorial oferece uma visão geral dos principais recursos do Visual Studio
   Code para te ajudar a começar rapidamente.

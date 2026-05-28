@@ -11,11 +11,11 @@
 # https://github.com/docsdevbr/vscode-website-pt-br/blob/-/LICENSES/CC-BY-3.0-US.txt
 
 source_url: https://github.com/microsoft/vscode-docs/blob/main/docs/setup/windows.md
-source_revision: d3018c18846c29b1a635bbf6f37f30264a66859e
+source_revision: b9731d7cf3dc3b478e3870682da6e96b034d7393
 translation_status: ready
 
 ContentId: 4670C281-5761-46E6-8C46-10D523946FFB
-DateApproved: 5/20/2026
+DateApproved: 5/28/2026
 MetaDescription: >-
   Instale o Visual Studio Code no Windows, escolha a instalação de usuário ou
   sistema e configure as ferramentas de desenvolvedor do Windows.
